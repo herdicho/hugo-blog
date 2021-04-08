@@ -40,3 +40,13 @@ collections:
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Thumbsup", name: "thumbsup", widget: "boolean" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "atur-tagihan"
+    label: "Atur-Tagihan"
+    folder: "content/atur-tagihan"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Thumbsup", name: "thumbsup", widget: "boolean" }
+      - { label: "Body", name: "body", widget: "markdown" }
