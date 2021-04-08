@@ -1,0 +1,18 @@
+---
+title: "enhydra-2"
+date: 2021-04-07T13:57:28+07:00
+draft: false
+thumbsup: false
+---
+
+= Release Note Enhydra
+
+Current Version: *1.11.0* 
+
+Unit Test Coverage, ready for backend development
+
+== What's new?
+
+1. 100% Unit Test Coverage (checked on 9 Nov 2020)
+2. Notification integration
+3. Prepare for backend development (on repo PO.BOX)
