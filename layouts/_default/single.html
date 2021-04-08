@@ -7,14 +7,16 @@
      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-     {{ partial "header" (dict "Kind" .Kind "Template" "Single") }}
+     {{ partial "header" . }}
 
      <div style="margin:25px;">
-          <h1>{{.Title}}</h1>
+          <h1 style="color: blue;">{{.Title}}</h1>
           <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
           <div style="color:grey; font-size:16px;">{{if .Params.author}}Author: {{.Params.Author}}{{end}}</div>
           <div style="color:grey; font-size:16px;">{{if .Params.team}}Team: {{.Params.Team}}{{end}}</div>
-          <div style="font-size:18px;">{{.Content}}</div>
+          <hr>
+          
+          <div style="font-size:18px;margin-top: 50px;">{{.Content}}</div>
      </div>
 
      <a href="/">Back to homepage</a>

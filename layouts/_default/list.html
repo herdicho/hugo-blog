@@ -7,7 +7,7 @@
      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-     {{ partial "header" (dict "Kind" .Kind "Template" "List") }}
+     {{ partial "header" . }}
      {{.Content}}
      {{ range .Pages }}
           <div style="border: 1px solid black; margin:10px; padding:10px; ">
