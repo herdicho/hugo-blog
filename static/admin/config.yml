@@ -19,3 +19,14 @@ collections:
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Team", name: "team", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "private"
+    label: "Private"
+    folder: "content/private"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Team", name: "team", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
