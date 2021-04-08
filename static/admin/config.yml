@@ -30,3 +30,13 @@ collections:
       - { label: "Team", name: "team", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "enhydra"
+    label: "Enhydra"
+    folder: "content/enhydra"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Thumbsup", name: "thumbsup", widget: "boolean" }
+      - { label: "Body", name: "body", widget: "markdown" }
