@@ -19,6 +19,7 @@
           <div style="font-size:18px;margin-top: 50px;">{{.Content}}</div>
      </div>
 
+     {{ template "_internal/disqus.html" . }}
      <a href="/">Back to homepage</a>
      
      {{ partial "footer" . }}
