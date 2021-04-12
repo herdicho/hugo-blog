@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Apr 2021 06:38:44 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atur Tagihan New</title>
+      <link>/atur-tagihan/atur-tagihan-new/</link>
+      <pubDate>Thu, 08 Apr 2021 06:38:44 +0000</pubDate>
+      
+      <guid>/atur-tagihan/atur-tagihan-new/</guid>
+      <description>Tambah content atur-tagihan lewat cms</description>
+    </item>
+    
+    <item>
+      <title>edit edit</title>
+      <link>/public/coba-dari-cms/</link>
+      <pubDate>Thu, 08 Apr 2021 02:25:46 +0000</pubDate>
+      
+      <guid>/public/coba-dari-cms/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus erat ac sapien accumsan feugiat. Nullam tincidunt egestas ex</description>
+    </item>
+    
+    <item>
+      <title>second-public</title>
+      <link>/public/second-public/</link>
+      <pubDate>Wed, 07 Apr 2021 13:57:35 +0700</pubDate>
+      
+      <guid>/public/second-public/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus erat ac sapien accumsan feugiat. Nullam tincidunt egestas ex</description>
+    </item>
+    
+    <item>
+      <title>atur-tagihan-1</title>
+      <link>/atur-tagihan/architecture-magellan-dashboard/</link>
+      <pubDate>Wed, 07 Apr 2021 13:57:28 +0700</pubDate>
+      
+      <guid>/atur-tagihan/architecture-magellan-dashboard/</guid>
+      <description>Related System  terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan .
+     No
+ Nama Sistem
+ Deskripsi
+   1
+ Hedwig
+ Digunakan untuk pengiriman Email dan Sistem
+   2
+ Bayartagihan
+ Digunakan untuk pembayaran
+      High Level Architecture   HLA ![hla](src/HLA.png)
+   </description>
+    </item>
+    
+    <item>
+      <title>enhydra-1</title>
+      <link>/enhydra/development-enhydra/</link>
+      <pubDate>Wed, 07 Apr 2021 13:57:28 +0700</pubDate>
+      
+      <guid>/enhydra/development-enhydra/</guid>
+      <description>Berisi Git Flow dan langkah development sistem.
+   Development Step   </description>
+    </item>
+    
+    <item>
+      <title>enhydra-2</title>
+      <link>/enhydra/release-note-enhydra/</link>
+      <pubDate>Wed, 07 Apr 2021 13:57:28 +0700</pubDate>
+      
+      <guid>/enhydra/release-note-enhydra/</guid>
+      <description>Current Version: 1.11.0
+ Unit Test Coverage, ready for backend development
+   What’s new?  100% Unit Test Coverage (checked on 9 Nov 2020)
+  Notification integration
+  Prepare for backend development (on repo PO.BOX)
+     </description>
+    </item>
+    
+    <item>
+      <title>enhydra-3</title>
+      <link>/enhydra/technology-enhydra/</link>
+      <pubDate>Wed, 07 Apr 2021 13:57:28 +0700</pubDate>
+      
+      <guid>/enhydra/technology-enhydra/</guid>
+      <description>Specification
+ Name
+ Ref
+   Programming Language
+ Nuxt
+ https://nuxtjs.org/guides/get-started/installation
+   FE Framework
+ Tailwind
+ https://tailwindcss.com/docs/installation
+   Web Icon
+ Remixicon
+ https://remixicon.com/
+   Unit Test
+ JEST
+    Standarize Code
+ Eslint (airbnb)
+ https://www.npmjs.com/package/eslint-config-airbnb-base
+   Naming Convention
+ Camel Case
+ use this: &amp;#34;camelCase&amp;#34; instead of &amp;#34;snake-case&amp;#34;
+   Container</description>
+    </item>
+    
+    <item>
+      <title>enhydra-new</title>
+      <link>/enhydra/first-public/</link>
+      <pubDate>Wed, 07 Apr 2021 13:57:28 +0700</pubDate>
+      
+      <guid>/enhydra/first-public/</guid>
+      <description>cek md file di folder enhydra</description>
+    </item>
+    
+    <item>
+      <title>first-public</title>
+      <link>/public/first-public/</link>
+      <pubDate>Wed, 07 Apr 2021 13:57:28 +0700</pubDate>
+      
+      <guid>/public/first-public/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus erat ac sapien accumsan feugiat. Nullam tincidunt egestas ex</description>
+    </item>
+    
+    <item>
+      <title>first-private</title>
+      <link>/private/first-private/</link>
+      <pubDate>Wed, 07 Apr 2021 13:57:03 +0700</pubDate>
+      
+      <guid>/private/first-private/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus erat ac sapien accumsan feugiat. Nullam tincidunt egestas ex</description>
+    </item>
+    
+    <item>
+      <title>second-private</title>
+      <link>/private/second-private/</link>
+      <pubDate>Wed, 07 Apr 2021 13:57:03 +0700</pubDate>
+      
+      <guid>/private/second-private/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus erat ac sapien accumsan feugiat. Nullam tincidunt egestas ex</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publics on My New Hugo Site</title>
+    <link>/public/</link>
+    <description>Recent content in Publics on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Apr 2021 02:25:46 +0000</lastBuildDate><atom:link href="/public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>edit edit</title>
+      <link>/public/coba-dari-cms/</link>
+      <pubDate>Thu, 08 Apr 2021 02:25:46 +0000</pubDate>
+      
+      <guid>/public/coba-dari-cms/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus erat ac sapien accumsan feugiat. Nullam tincidunt egestas ex</description>
+    </item>
+    
+    <item>
+      <title>second-public</title>
+      <link>/public/second-public/</link>
+      <pubDate>Wed, 07 Apr 2021 13:57:35 +0700</pubDate>
+      
+      <guid>/public/second-public/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus erat ac sapien accumsan feugiat. Nullam tincidunt egestas ex</description>
+    </item>
+    
+    <item>
+      <title>first-public</title>
+      <link>/public/first-public/</link>
+      <pubDate>Wed, 07 Apr 2021 13:57:28 +0700</pubDate>
+      
+      <guid>/public/first-public/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus erat ac sapien accumsan feugiat. Nullam tincidunt egestas ex</description>
+    </item>
+    
+  </channel>
+</rss>

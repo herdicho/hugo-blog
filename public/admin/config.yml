@@ -1,0 +1,52 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+# This line should *not* be indented
+publish_mode: editorial_workflow
+
+# These lines should *not* be indented
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: "public"
+    label: "Public"
+    folder: "content/public"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Team", name: "team", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "private"
+    label: "Private"
+    folder: "content/private"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Team", name: "team", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "enhydra"
+    label: "Enhydra"
+    folder: "content/enhydra"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Thumbsup", name: "thumbsup", widget: "boolean" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "atur-tagihan"
+    label: "Atur-Tagihan"
+    folder: "content/atur-tagihan"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Thumbsup", name: "thumbsup", widget: "boolean" }
+      - { label: "Body", name: "body", widget: "markdown" }

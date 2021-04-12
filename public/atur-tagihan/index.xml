@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atur-tagihans on My New Hugo Site</title>
+    <link>/atur-tagihan/</link>
+    <description>Recent content in Atur-tagihans on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Apr 2021 06:38:44 +0000</lastBuildDate><atom:link href="/atur-tagihan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atur Tagihan New</title>
+      <link>/atur-tagihan/atur-tagihan-new/</link>
+      <pubDate>Thu, 08 Apr 2021 06:38:44 +0000</pubDate>
+      
+      <guid>/atur-tagihan/atur-tagihan-new/</guid>
+      <description>Tambah content atur-tagihan lewat cms</description>
+    </item>
+    
+    <item>
+      <title>atur-tagihan-1</title>
+      <link>/atur-tagihan/architecture-magellan-dashboard/</link>
+      <pubDate>Wed, 07 Apr 2021 13:57:28 +0700</pubDate>
+      
+      <guid>/atur-tagihan/architecture-magellan-dashboard/</guid>
+      <description>Related System  terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan .
+     No
+ Nama Sistem
+ Deskripsi
+   1
+ Hedwig
+ Digunakan untuk pengiriman Email dan Sistem
+   2
+ Bayartagihan
+ Digunakan untuk pembayaran
+      High Level Architecture   HLA ![hla](src/HLA.png)
+   </description>
+    </item>
+    
+  </channel>
+</rss>
