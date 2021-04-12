@@ -3,5 +3,8 @@
         "algolia": "atomic-algolia",
         "start:dev": "hugo server -F -D",
         "build:prod": "hugo && npm run algolia"
+    },
+    "devDependencies": {
+        "atomic-algolia": "^0.3.19"
     }
-  }
+}
