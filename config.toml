@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 disqusShortname = "coba-disqus"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [outputs]
 home = ["HTML","RSS","Algolia"]
 

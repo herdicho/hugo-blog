@@ -10,3 +10,8 @@ thumbsup: false
 Berisi Git Flow dan langkah development sistem.
 
 == Development Step
+
+++++
+<input type="text" value="Halo Dunia" id="myInput">
+<button onclick="copyText()">Copy text</button>
+++++
