@@ -16,3 +16,9 @@ home = ["HTML","RSS","Algolia"]
   baseName = "algolia"
   isPlainText = true
   notAlternative = true
+
+[params.staticman]
+    endpoint = "https://hugo-comments-new.herokuapp.com/v2/entry"
+    username = "herdicho"
+    repository = "hugo-blog"
+    branch = "master"

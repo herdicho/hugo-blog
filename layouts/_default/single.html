@@ -21,9 +21,10 @@
 
      <a href="/" style="margin-bottom: 30px; padding-bottom: 10px;">Back to homepage</a>
      
-     {{ template "_internal/disqus.html" . }}
+     <!--{{ template "_internal/disqus.html" . }}-->
      
-     
+     {{ partial "comments.html" .}}
+
      {{ partial "footer" . }}
 
      <script>
