@@ -22,3 +22,6 @@ home = ["HTML","RSS","Algolia"]
     username = "herdicho"
     repository = "hugo-blog"
     branch = "master"
+
+[params]
+  talkyardServerUrl = "https://comments-demo.talkyard.io"
