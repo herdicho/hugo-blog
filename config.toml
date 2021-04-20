@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 disqusShortname = "coba-disqus"
 
+#pygmentsCodefences = true
+#pygmentsStyle = "pygments"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
