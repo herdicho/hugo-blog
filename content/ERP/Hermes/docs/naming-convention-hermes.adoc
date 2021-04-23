@@ -1,0 +1,5 @@
+= Naming Convention Hermes
+
+Because this is built using Lumen (Laravel framework), please follow this convention:
+
+https://github.com/alexeymezenin/laravel-best-practices#follow-laravel-naming-conventions[alexeymezenin/laravel-best-practices]

@@ -1,0 +1,13 @@
+= Technology ERP ATI
+
+Berikut adalah teknologi yang digunakan dalam pengembangan sistem ERP ATI:
+
+|===
+|*Specification* |*Name*
+|OS |
+|Web Server|
+|Programming Language |
+|Framework|
+|Container|
+|Proxy|
+|===

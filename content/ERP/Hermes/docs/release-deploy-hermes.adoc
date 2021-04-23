@@ -1,0 +1,43 @@
+= Release and Deployment Hermes
+
+== Release Procedure
+
+*Release Preparation*
+
+The following is the release preparation for both Hermes and ERP:
+
+. Create release story in Pivotal
+. Create "`release/YYYYMMDD`" branch from the master branch.
+. Merge all accepted stories to the created "`release/YYYYMMDD`" branch.
+In the event of a conflict:
+ .. Compare the line that caused the conflict to the one in the DEV environment, or
+ .. Ask the developer to resolve the conflict.
+. Click "`Finish`" on the story in Pivotal.
+. Test the "`release/YYYYMMDD`" branch on your local environment to ensure that it works as intended.
+. Merge the "`release/YYYYMMDD`" branch to "`qa_branch-master`" branch.
+Inform QE team to update the regression test script on the "`qa_branch-master`" branch.
+
+== Deployment
+
+*Proses Deployment:*
+
+. Notify infra team to perform the deployment.
+. Infra team will be the one performing the deployment.
+. Check the system URL and make sure that it works properly.
+
+*Rollback Step*
+
+. Open the GitHub link stated in the Source Code section.
+. See the previous commit ID.
+. Run the following command in the production server:
+
+  sudo service <service_name> restart
+
+  sudo service nginx restart
+
+. Check the system URL and make sure all the functionalities work as intended.
+
+*Jadwal Deployment*
+
+Currently, there is no set schedule for deployment.
+It is performed based on needs.

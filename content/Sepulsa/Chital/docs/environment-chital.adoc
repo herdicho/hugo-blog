@@ -1,0 +1,34 @@
+= Environment Chital
+
+Berikut adalah environment dari sistem Chital:
+
+|===
+| *Stage* | *Environment* | *Specs*
+
+| Staging | IP Address | 52.220.193.* * *
+
+|| URL | https://pron.sumpahpalapa.com
+
+|| Doc Root | /sepulsa/www/pronghorn
+
+|| Service Name | SumpahPalapa Pronghorn 110117
+
+|| DB Server | prondevpalapa.cn26rqn0gh39.ap-southeast-1.rds.amazonaws.com:3306
+
+|| Git Branch | pronghorn - dev
+
+| Production | IP Address | 52.220.169.* * * 
+
+| | URL| https://navigation.sepulsa.com
+
+| | Doc Root | /sepulsa/var/www
+
+| | Service Name | Navigation Sepulsa.com - 280117
+
+| | DB Server a| * Master : sepulsa.cn26rqn0gh39.ap-southeast-1.rds.amazonaws.com:3306  
+* Slave : sepulsaslave cn26rqn0gh39.ap-southeast-1.rds.amazonaws.com:3306 
+
+|| Git Branch | pronghorn - prod
+|===
+
+*Note : Untuk detail IP Address, Anda dapat menghubungi Tim Development Chital atau Tim Infrastruktur*

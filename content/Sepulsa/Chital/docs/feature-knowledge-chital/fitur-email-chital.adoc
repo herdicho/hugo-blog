@@ -1,0 +1,149 @@
+= Register and Login via Email Chital
+
+== Development Team
+
+|===
+| *Name* | *Role* | *Email*
+
+| R Achmad Syatriadi Widisana | Document Owner | widisana@alterra.id
+
+| Hendrik Rahardja | Development Manager | hendrik@alterra.id
+
+| Ramdhan Pohan | Product Owner | rpohan@alterra.id
+
+a| 1. R Achmad Syatriadi Widisana 
+2. Pipit Puspitasari 
+| System analyst
+a| 1. widisana@alterra.id  
+2. pipit@alterra.id
+
+| Ery Hardinata | Software Engineer | ery@alterra.id
+
+| Aldi K. Dipasanta | Front End Developer | aldi@alterra.id
+
+| Syafirath | Quality Enggineer | - 
+|===
+
+== Overview
+
+_Register via email_ merupakan fitur _login_ pada aplikasi Sepulsa yang dapat diintegrasikan dengan akun email.
+
+== Sistem Flow
+
+image:./images-feature-chital/Register_via_Email.png[Register via email] 
+
+image:./images-feature-chital/Access_Via_Google.png[register &l ogin via google account]
+
+Gambar Sistem Flow di atas dapat diakses pada https://www.lucidchart.com/invitations/accept/e81f1c04-0421-4a16-b3c3-23c5e09315fe[link berikut].
+
+== Requirement
+
+=== _User Story_ Chital
+
+|===
+| *No* |  *User Story* | *Description* | *Notes* 
+| 1    |  Filter data  | checking filter, semua field dan button2  | 
+| 2    |  Bulk Actions With selected customers  | Make active/inactive user | 
+| 3    |  View data   | View general data user |
+| 4    |  Send password reset email   | Send password reset email |
+|===
+
+=== _User Story_ Alicanto
+
+|===
+| *No* |  *User Story* | *Description* | *Notes*
+| 1      |  Input data (register)  | Input nama, email, no HP, password, centang ketentuan layanan dan kebijakan privasi | 
+| 2     |  Input data (login)  |  Input no HP/email, password | 
+| 3      |  Login (guest)   | Masuk sebagai guest | 
+| 4      |  Forgot password   | Lupa pasword | Input no HP/email, kemudian sistem mengirimkan link untuk membuat password baru |
+|===
+
+== Implementation
+
+=== Proses implementasi
+
+* Chital merubah _field_ dari _first_name_ menjadi _full_name_ pada saat proses _registration_
+* Create fungsi untuk _get firstname_ dan _lastname_ dari _full name_ yang telah user input
+* Tidak ada perubahan di tampilan _form front end_
+* Diperlukan validasi untuk men__filter__ karena tidak boleh ada _special character_ di _full name_
++
+*Overview*
+
+* *Input*
++
+----
+      {
+        "user": {
+            "full_name": "full name",
+            "email": "{{dummy_user}}",
+            "password": "{{dummy_password}}"
+        },
+        "phone": "081234567891"
+      }
+----
+
+* *Approval Function*
+ ** _Fullname_ harus lebih dari 1 kata
+ ** Jika _fullname_ = 3 kata atau lebih, maka ambil 1 kata pertama sebagai _firstname_, dan 2 kata setelahnya sebagai _last name_ (contoh : _fullname_=Jean Andrea Terry, maka sistem akan menyimpan _firstname_=Jean dan _lastname_=AndreaTerry
+ ** Tidak boleh ada _special character_ di _fullname_
+ ** _For client / ui validation needs new regex validationvalidFullName?_
+* *_Output_ :* _User registered_
+* *_Config Page_ :* N/A
+* *_Permission_ :* _Anonymous_
+* Ketika user melakukan _register_, user akan menerima email OTP yang berisi kode OTP untuk verifikasi.
+jadi dibutuhkan 1 _design_ email yang nanti akan di kirim ke user.
+(_Add new design HTML and CSS for Email OTP req and validate page_)
+* Ketika user memasukkan +62/62 pada _field phone number/email_ maka akan berubah menjadi 0.
+oleh karena itu menambahkan fungsi _replace prefix phone number_.
+
+*Overview*
+
+*Input* `phone number only`
+
+**Approval Function** perubahan nomor hanya untuk 3 digit awal saja `+62xxxxxxx` to `0`
+
+*Output* `0`
+
+== User Interaction & Design
+
+|===
+| *Name* | *Tags* | *Files*
+
+| Email OTP
+| https://xd.adobe.com/view/a163c0b0-2a51-4454-63d7-c5133a00eefb-d752/
+|
+
+| Customer - UI - First & Last Name
+|
+| https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0b2ecd53-7da5-42d4-b691-370cc7689985/TestLink_1.9.19_%28Metonic_cycle%29.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAT73L2G45LFP7Z6PU%2F20200316%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200316T141540Z&X-Amz-Expires=86400&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIF50c9RR9%2FzJSvlu8MkpFkqrNUO8XRku3fXsCcSbAIDNAiEAjNjvFfAVNDs70XZJD4L7oP%2BFo%2BCQ1XlUprMpS8hvOP4qvQMIjf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwyNzQ1NjcxNDkzNzAiDDFnAmpfFuI6hqeZ5SqRA6mO%2FKq2yNAsYtLr7i4JQ%2FXEyFmUnBsUoje2Ifwtk9%2BFUjP6REGVZW4f2z%2B%2Bv6xmqbr5buo04KbzuOQZtZQERv8dkr%2BcJ3Haz7r7mUFCbbc0EIMCd3g5mymC6z%2BTwP2Ulzsqazq7B5lfz%2BFSkVj0%2F2XVBnHo7cArJutY8UHnwZhX7jNekUzVdFmMMS1EI%2FzKGMK82g7PV4tMbVcrw32VHjnoZ7eB7jwt1DFuWtqO6eKB%2Bh2yjo8an3OKdP%2FcmlsiS0fRYyURbBGe4iJyvGCX2hb1%2Bhddh8kUdIOcKLEgZHRqqw3Z6HpxsaSjLSeUcQW4Q80ioAI1jUpLDkXwW6dFaRys5XAlcqfHgSgUHMhhrw%2FS%2BCV5FA53mMyANWuORxIHnRdWUYkzSkAisiCqphOWUITI7skevY7n22zi4hFWYMWXpmkWgr8QbxgG3h%2Bs2n1o%2FBsX6ZxHEzIuG7dpSzWQ9eyphqUlenfRnw1T%2F1TNCOmcjbkYJqm44QwVK%2BZlJ%2BXqb1Yz4Y00dl%2B5QPv%2FneDYUwVxMI3avfMFOusBJJl%2BFwOQoR24%2B5eDbjgFdU7Ut4uitRneeGUB2WPqNPRSmp4x3PS6bKFsJjN5krYysEx0%2BcClfX%2BPph%2FZMW4qGoJ08qo3snpN3%2Fh4wFRcUDsm%2B1Rk%2F%2Bw2mFaGk2L6Zqsh%2FV%2Bpm8QSgRFSrWeVkS21jlLAv8q5H7Y3VEdgcga1LPDSJ5hyeDz3RnRTjZU8Lg2j%2BScCZs52xLgzk2bS8cOSBQ0VjISyQ1N2KVIbTjSRiYZ%2FY5ytXEbaNQ2u2%2B6ey87fhRib%2F%2BKPz%2BPfevIfCIEeu%2FAQvRmIIfuQ4SCcu9D0tp0k7V%2B3RZ6A1GN59A%3D%3D&X-Amz-Signature=8b7285609b1c8cb51958c58478b50768e3581b9c18242dd23b1ff93ee2e94e1b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22TestLink%25201.9.19%2520%28Metonic%2520cycle%29.pdf%22[Testlink]
+|===
+
+== API Documentation
+
+Internal Doc : https://chital.sumpahpalapa.com/docs/swagger/#operation/products_create
+
+|===
+| *Name* | *Endpoint* | *Method*
+
+| _User_
+| /oscar/users/
+| GET
+
+| _Login_
+| /oscar/login/
+| GET
+|===
+
+== Permission Process
+
+_Registrasi & login_ hanya digunakan dalam fitur aplikasi _web_ sepulsa yang digunakan oleh user.
+
+== Reference Document
+
+=== Pivotal Task
+
+* https://www.pivotaltracker.com/story/show/167965103[Pivotal Chital]
+
+* https://www.pivotaltracker.com/story/show/167990513[Pivotal Alicanto]
+
+* https://www.pivotaltracker.com/story/show/169631445)[Pivotal Alicanto]

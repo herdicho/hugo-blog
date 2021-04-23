@@ -1,0 +1,43 @@
+= Super Tools Chital
+
+== Development Team
+
+|===
+| *Name* | *Role* | *Email* 
+
+| Ananto Eko Hendarto |  Development Manager | anton@alterra.id
+
+| Lazuardi Hilmi  | Product Owner | lazuardi@alterra.id
+
+| Aldi Dipasanta | Software Engineer | aldi@alterra.id
+
+| Dwi Riyantono | Software Engineer (Backend) | riyantono@alterra.id
+
+| Mugh Dzin Syah | Software Engineer (Frontend) | dzinsyah@alterra.id
+
+| Ferdinandus Eka Putra | Quality Engineer Lead | ferdi@alterra.id
+
+| Micky Sanjaya | Quality Engineer | micky@alterra.id
+|===
+
+== Overview
+
+Sebuah sistem yang berfokus untuk melakukan kegiatan _super user_ seperti _Error Management, Maintenance Mode, Reversal Voucher Code,_ dan _Change Order Status_.
+
+Pada menu Reversal Voucher Code terdapat 2 pilihan radio button _Chital Basket ID_ dan _Meowth Order ID_. Ketika user memilih _Chital Basket ID_, maka sistem akan mencari apakah terdapat _voucher_ dari _Basket ID_ tersebut. Jika ada, maka sistem akan melakukan _Reversal Voucher_. Jika tidak ada, maka akan ada notifikasi yang memberikan _sugesstion_ _user_ melakukan _Reversal Voucher_ menggunakan _Meowth Order ID_.
+
+=== Sistem Flow
+* TODO
+
+=== User Story
+* TODO
+
+=== Implementation
+* TODO
+
+==== Proses Implementasi
+
+===== Reversal Voucher Code
+* Membuat input form radio button untuk memilih antara _Chital Basket ID_ dan _Meowth Order ID_. 
+
+* Membuat input form untuk memasukkan _Chital Basket ID_ atau _Meowth Order ID_ dan klik _Submit_

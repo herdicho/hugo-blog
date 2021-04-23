@@ -1,0 +1,7 @@
+= Architecture Alicanto
+
+== High Level Diagram
+
+image::/Sepulsa/Alicanto/docs/images-alicanto/HLA_Chital.jpg[HLA Alicanto]
+
+image::images-alicanto/HLA_Chital.jpg[HLA Alicanto]

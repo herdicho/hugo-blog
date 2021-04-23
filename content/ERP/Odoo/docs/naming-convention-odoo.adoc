@@ -1,0 +1,6 @@
+= Naming Convention Odoo
+
+
+Karena sistem ini dibangun menggunakan Lumen (Laravel framework), harap ikuti konvensi ini:
+
+https://github.com/alexeymezenin/laravel-best-practices#follow-laravel-naming-conventions[Best Practice Laravel]

@@ -1,0 +1,48 @@
+= Flow and Wireframe Chital
+
+== Dashboard
+
+|===
+| *_Feature_* | *_Type_* | *Diagram* 
+| User Management | flow | https://drive.google.com/file/d/1COZcPh6lFoOowGrrsHOYKKyZOWFs-5pD/view?usp=sharing[https://drive.google.com/file/d/1COZcPh6lFoOowGrrsHOYKKyZOWFs-5pD/view?usp=sharing]
+| Role Management | flow | https://drive.google.com/file/d/1IaOHeWOJRZ994aCPn9i7S8JqY0STZTvt/view?usp=sharing[https://drive.google.com/file/d/1IaOHeWOJRZ994aCPn9i7S8JqY0STZTvt/view?usp=sharing]
+| Partner Management | flow | https://drive.google.com/file/d/1mmNq5A4GkKHDFbuduzfnfVGa1QyE6ATi/view?usp=sharing[https://drive.google.com/file/d/1mmNq5A4GkKHDFbuduzfnfVGa1QyE6ATi/view?usp=sharing]
+| Product Management | flow | https://drive.google.com/file/d/1FgZyFbppPsvHv6Q8V9zLnSOjjqKwd6rb/view?usp=sharing[https://drive.google.com/file/d/1FgZyFbppPsvHv6Q8V9zLnSOjjqKwd6rb/view?usp=sharing]
+| Multi Price Management | flow | https://drive.google.com/file/d/1qWu4FJqnIfHZ_DkXtQMA5XJESH6gEZZ-/view?usp=sharing[https://drive.google.com/file/d/1qWu4FJqnIfHZ_DkXtQMA5XJESH6gEZZ-/view?usp=sharing] 
+| Fee Management | flow | https://drive.google.com/file/d/1aKaZvUuCpLNv4vFzKbkNH29sj9orLpZH/view?usp=sharing[https://drive.google.com/file/d/1aKaZvUuCpLNv4vFzKbkNH29sj9orLpZH/view?usp=sharing]
+| SMS Management | flow | https://drive.google.com/file/d/1rzGHMAmb1iF3ynyvvvVtxDUSwvnYvbHH/view?usp=sharing[https://drive.google.com/file/d/1rzGHMAmb1iF3ynyvvvVtxDUSwvnYvbHH/view?usp=sharing]
+| Email Management | flow | https://drive.google.com/file/d/1Wmtu6D2PWCSuL4Mvx1VSFuW8u4mqPO7J/view?usp=sharing[https://drive.google.com/file/d/1Wmtu6D2PWCSuL4Mvx1VSFuW8u4mqPO7J/view?usp=sharing]
+| Error Management | flow | https://drive.google.com/file/d/1QbkPgBQwpbOAqQjjNBLXfV2JltKYB0CR/view?usp=sharing[https://drive.google.com/file/d/1QbkPgBQwpbOAqQjjNBLXfV2JltKYB0CR/view?usp=sharing]
+| Autoplay Management | flow | https://drive.google.com/file/d/1O337jEXkpmtnpl0MAQtiMa_LE2KHAmKe/view?usp=sharing[https://drive.google.com/file/d/1O337jEXkpmtnpl0MAQtiMa_LE2KHAmKe/view?usp=sharing]
+| Order Management | flow | https://drive.google.com/file/d/14S7hZx9GjAm94l0S-EydVSMCPKCbKGky/view?usp=sharing[https://drive.google.com/file/d/14S7hZx9GjAm94l0S-EydVSMCPKCbKGky/view?usp=sharing]
+| Banner Management | flow | https://drive.google.com/file/d/1GRM4AuXdrDdxkxuNJsEnF61NDkYPXSg-/view?usp=sharing[https://drive.google.com/file/d/1GRM4AuXdrDdxkxuNJsEnF61NDkYPXSg-/view?usp=sharing]
+| Block Phone Number | flow | https://drive.google.com/file/d/1w5GLElc4oufVWK05m36wrA3uPeSm1eUe/view?usp=sharing[https://drive.google.com/file/d/1w5GLElc4oufVWK05m36wrA3uPeSm1eUe/view?usp=sharing]
+| Tools Manual to Kraken | flow | 
+| Credit System (Sepulsa Kredit) | flow | 
+| Email Promotion | flow | 
+| Email Voucher | flow | 
+| Product Type Management | flow | 
+| Product Category Management | flow | 
+|===
+
+
+=== Frontend
+
+|===
+| *_Feature_* | *_Type_* | *Lucidchart* 
+| Register via E-mail | flow | https://drive.google.com/file/d/1SE8CXWZ1-b0JbLwUHkzNe-mKwOzNHza6/view?usp=sharing[https://drive.google.com/file/d/1SE8CXWZ1-b0JbLwUHkzNe-mKwOzNHza6/view?usp=sharing]
+| Log in via E-mail/Ph Number | flow | https://drive.google.com/file/d/14aOjZaAXcD7bwPYWkQEwhoAm3cB2kSoG/view?usp=sharing[https://drive.google.com/file/d/14aOjZaAXcD7bwPYWkQEwhoAm3cB2kSoG/view?usp=sharing]
+| Access in via Google | flow | https://drive.google.com/file/d/1RGttJ0myg615ra_FNeD74eR2oSZPZZez/view?usp=sharing[https://drive.google.com/file/d/1RGttJ0myg615ra_FNeD74eR2oSZPZZez/view?usp=sharing]
+| Access via Facebook | flow | https://drive.google.com/file/d/1OAbMbdJQK8eavHrXmD-Ai510v3xexS9H/view?usp=sharing[https://drive.google.com/file/d/1OAbMbdJQK8eavHrXmD-Ai510v3xexS9H/view?usp=sharing]
+| Transaction Product Prepaid | flow | https://drive.google.com/file/d/1wP9vA60fE39uaQdghxjAf_ZyVqvAspdg/view?usp=sharing[https://drive.google.com/file/d/1wP9vA60fE39uaQdghxjAf_ZyVqvAspdg/view?usp=sharing]
+| Transaction Product Postpaid | flow | https://drive.google.com/file/d/1nfk8fcOY8pE6-_HBzQ09fox-HDINAHid/view?usp=sharing[https://drive.google.com/file/d/1nfk8fcOY8pE6-_HBzQ09fox-HDINAHid/view?usp=sharing]
+| Payment with OTP | flow | https://drive.google.com/file/d/1wIcf6BKqCYK-LD515RrNml40YfB_9w5i/view?usp=sharing[https://drive.google.com/file/d/1wIcf6BKqCYK-LD515RrNml40YfB_9w5i/view?usp=sharing]
+| Payment without OTP | flow | https://drive.google.com/file/d/13SYw99gDEZVLyOdfv908Z0i4FzZUSfSr/view?usp=sharing[https://drive.google.com/file/d/13SYw99gDEZVLyOdfv908Z0i4FzZUSfSr/view?usp=sharing]
+| Favourite Product | flow | https://drive.google.com/file/d/10L8NHN_mfsmSH1XrLtai4n2jbW9uowi7/view?usp=sharing[https://drive.google.com/file/d/10L8NHN_mfsmSH1XrLtai4n2jbW9uowi7/view?usp=sharing]
+| Autoplay | flow | https://drive.google.com/file/d/1dAu830TvJIvs0JIKRu_40haYIwAxzZdy/view?usp=sharing[https://drive.google.com/file/d/1dAu830TvJIvs0JIKRu_40haYIwAxzZdy/view?usp=sharing]
+| Edit Profile | flow | https://drive.google.com/file/d/1YuGWKiTLvczbGV26w0r0KubWLJ3i2DLL/view?usp=sharing[https://drive.google.com/file/d/1YuGWKiTLvczbGV26w0r0KubWLJ3i2DLL/view?usp=sharing]
+| Log Out | flow | https://drive.google.com/file/d/154vh52NqM_40dSe-2S9-KwFKO0l5tjGo/view?usp=sharing[https://drive.google.com/file/d/154vh52NqM_40dSe-2S9-KwFKO0l5tjGo/view?usp=sharing]
+| Forgot Password | flow | https://drive.google.com/file/d/1n1n7BupI6w9pJVYYEUgIUfqBA8uYT4a5/view?usp=sharing[https://drive.google.com/file/d/1n1n7BupI6w9pJVYYEUgIUfqBA8uYT4a5/view?usp=sharing]
+| Cart Management | flow | https://drive.google.com/file/d/130DK-r6OxXZiRGgLrVG39XDSz8jsf9Jd/view?usp=sharing[https://drive.google.com/file/d/130DK-r6OxXZiRGgLrVG39XDSz8jsf9Jd/view?usp=sharing]
+| OTP Verification Page | flow | 
+|===

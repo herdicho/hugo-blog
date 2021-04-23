@@ -1,0 +1,33 @@
+= Technology Odoo
+
+|===
+| Environment | Server | Deskripsi
+
+| OS
+|
+|
+
+| Web Server
+|
+|
+
+| Programming Language
+| Python 2.7
+|
+
+| Framework
+| Odoo 9.0
+|
+
+| DBS
+| PostgreeSQL 9.6
+|
+
+| Library
+|
+|
+
+| Tool
+|
+|
+|===

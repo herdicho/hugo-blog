@@ -1,0 +1,9 @@
+= Product Information Document Odoo
+
+Dokumen berikut berisi penjelasan terkait semua _product_ yang ada di dalam sistem Odoo. Berikut untuk list dari product information :
+
+
+|===
+|*Document Title* |*Remark/Explanation*
+| <<product-information-odoo/01-product-name-odoo.adoc#, Product Name Odoo>> |
+|===

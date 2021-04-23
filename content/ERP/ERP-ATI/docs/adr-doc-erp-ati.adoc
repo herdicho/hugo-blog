@@ -1,0 +1,9 @@
+=  ADR Document ERP ATI
+
+The documents below are the history of all decisions applied by the development team based on the exploration
+
+|===
+|*Document Title* |*Remark/Explanation*
+| <<adr-doc-erp-ati/0001-adr-decision-1-erp-ati.adoc#, [ADR-0001] Decision 1 ERP ATI  >> |Template ADR
+|Next Decision | 
+|===

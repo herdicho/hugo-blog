@@ -1,0 +1,53 @@
+= ERP ATI
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem ERP ATI yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem ERP ATI. Masing-masing sudah dilengkapi dengan alamat email yang bisa dihubungi jika diperlukan.
+
+
+|===
+| *Name* | *Role* | *Email* 
+| | |
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<docs/url-erp-ati.adoc#, System URL ERP ATI>>
+
+<<docs/architecture-erp-ati.adoc#, Architecture ERP ATI>>
+
+<<docs/technology-erp-ati.adoc#, Technology ERP ATI>>
+
+<<docs/environment-erp-ati.adoc#, Environment ERP ATI>>
+
+<<docs/database-erp-ati.adoc#, Database Documentation ERP ATI>>
+
+<<docs/release-deploy-erp-ati.adoc#, Release and Deployment ERP ATI>>
+
+<<docs/flow-wire-erp-ati.adoc#, Flow and Wireframe ERP ATI>>
+
+== Onboarding Information
+
+<<docs/dev-onboarding-erp-ati.adoc#, Developer Onboarding ERP ATI>>
+
+<<docs/development-erp-ati.adoc#, Development ERP ATI>>
+
+<<docs/naming-convention-erp-ati.adoc#, Naming Convention ERP ATI>>
+
+== Documentation
+
+// Berisi dokumen penunjang untuk penggunaan sistem, berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam list dokumen berikut:
+
+<<docs/adr-doc-erp-ati.adoc#, ADR Document ERP ATI>>
+
+<<docs/product-information-erp-ati.adoc#, Product Information Document ERP ATI>>
+
+<<docs/release-note-erp-ati.adoc#, Release Note ERP ATI>>
+
+

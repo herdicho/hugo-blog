@@ -1,0 +1,70 @@
+:toc:
+:toc-title: 
+
+
+= [ADR-0001] Decision 1 Odoo
+
+ADR (Architecture Decision Record) is a document that captures an important architectural decision made along with its context and consequences.
+
+The following is an example of an adr document  template
+
+* Status: [proposed | rejected | accepted | superseded by <add related ADR Doc and link it to the file>] //Choose one status
+* Deciders: [list everyone involved in the decision]
+* Date: [YYYY-MM-DD when the decision was last updated]
+
+== Summary
+
+=== Issue
+
+Describe the context and problem statement, e.g., in free form using two to three sentences. You may want to articulate the problem in form of a question. It also can be some bullets.
+
+* [driver 1, e.g., a force, facing concern, …]
+* [driver 2, e.g., a force, facing concern, …]
+
+=== Decision
+
+Chosen option: "[option 1]", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | … | comes out best (see below)].
+
+=== Consequences
+
+Good or bad implications because the decisions. For example: The system must follow implementation reference in the bottom of this document.
+
+=== Related Decisions
+
+Add related ADR Doc on the list
+
+ 
+== Details 
+
+[blue]#Details Section is optional if the decision is crystal clear. But important if a decision need intense discussion or some comparison.#
+
+=== Assumptions
+
+This talking about the background of above issue and how we want to solve it. 
+
+=== Contraints
+
+Preferable solution to pick. E.g. Because we already use google suite, then google login is preferable then using github login.
+
+=== Considered Options
+
+These options are solving the issue, but might not be suit with our constraints
+
+* Option 1 - It's good in get things done
+* Option 2 - The most popular options 
+* Option 3 - The most flexible options
+
+=== Arguments
+
+Argument why we choose this options. What kind of big benefit we get for that.
+
+
+== References, Implementations and Notes
+
+* [Example of ADR](https://lmgtfy.com/?q=architecture-decision-records[])
+
+
+Notes:
+
+* ADR must easy to read, clear decision, and not longer than 2 pages of A4.
+

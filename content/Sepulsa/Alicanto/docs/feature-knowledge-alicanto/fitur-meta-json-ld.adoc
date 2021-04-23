@@ -1,0 +1,30 @@
+= SEO JSON LD Alicanto
+
+== Development Team
+
+|===
+| *Name* | *Role* | *Email* 
+
+| Ananto Eko Hendarto |  Development Manager | anton@alterra.id
+
+| Lazuardi Hilmi  | Product Owner | lazuardi@alterra.id
+
+| Aldi Dipasanta | Software Engineer | aldi@alterra.id
+
+| Dwi Riyantono | Software Engineer (Backend) | riyantono@alterra.id
+
+| Mugh Dzin Syah | Software Engineer (Frontend) | dzinsyah@alterra.id
+
+| Ferdinandus Eka Putra | Quality Engineer Lead | ferdi@alterra.id
+
+| Micky Sanjaya | Quality Engineer | micky@alterra.id
+|===
+
+== Overview
+JSON-LD (_JavaScript Object Notation for Linked Data_) adalah sebuah metode pengkodean data tertaut menggunakan format JSON. Tujuan penggunaan JSON-LD adalah untuk membantu _google search_ menemukan informasi dari suatu _page_ dengan cara standardisasi format data berdasarkan informasi dan klasifikasi konten suatu _page_.
+
+=== Proses Implementasi
+* Buat _markup_ struktur data sesuai dengan konten di suatu _page_ dengan mengikuti _guideline_ penulisan struktur data, link _guideline_ dapat di cek di url ini https://developers.google.com/search/docs/guides/search-gallery
+* Letakkan _markup_ struktur data yang telah dibuat di head _page_.
+* _Check_ dan validasi struktur data dengan cara cek url atau _code_ di _link_ berikut https://search.google.com/test/rich-results.
+* Jika hasil cek gagal atau tidak terdeteksi struktur data nya, cek kembali apakah ada kesalahan, dan ulangi langkah dari yang pertama.

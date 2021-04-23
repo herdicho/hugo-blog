@@ -1,0 +1,69 @@
+= Odoo
+:keywords: sti, erp,odoo,griffin
+
+== Overview
+
+ERP (Enterprise Resource Planning) adalah alat manajemen untuk bisnis sehari-hari.
+Pada tingkat paling dasar, perangkat lunak ERP mengintegrasikan berbagai fungsi ke dalam satu sistem lengkap untuk merampingkan proses dan informasi di seluruh organisasi.
+
+Sistem ERP kami memanfaatkan Edisi Komunitas Odoo dengan _hosting_ di tempat.
+Aplikasi berikut saat ini diinstal di sistem ERP kami:
+
+. Akuntansi
+. Penjualan
+. Pembelian
+. Persediaan
+
+== Team Involved
+
+|===
+| *Name* | *Role* | *Email* |
+
+|
+| Guntur Suparno Putro
+| Product Owner
+| guntur@alterra.id
+
+|
+| Evan Sujanto
+| Development Manager
+| evan@alterra.id
+
+|
+| Tri Haryono
+| Lead Software Engineer
+| tharyono@alterra.id
+
+|
+| Fransisca Maya
+| Lead Quality Engineer
+| fransiska@alterra.id
+|===
+
+== Technical Information
+
+<<docs/architecture-odoo.adoc#, Architecture Odoo>>
+
+<<docs/url-odoo.adoc#, System URL Odoo>>
+
+<<docs/technology-odoo.adoc#, Technology Odoo>>
+
+<<docs/release-deploy-odoo.adoc#, Release and Deployment Odoo>>
+
+<<docs/document-source-odoo.adoc#, Document Source Odoo>>
+
+== Onboarding Information
+
+<<docs/dev-onboarding-odoo.adoc#, Development Onboarding Odoo>>
+
+<<docs/development-odoo.adoc#, Development Odoo>>
+
+<<docs/naming-convention-odoo.adoc#, Naming Convention Odoo>>
+
+== Documentation
+
+https://github.com/sepulsa/erp-odoo/releases[Release Note Odoo]
+
+<<docs/adr-doc-odoo.adoc#, ADR Document Odoo>>
+
+<<docs/product-information-odoo.adoc#, Product Information Document Odoo>>
