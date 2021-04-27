@@ -6,6 +6,8 @@ disqusShortname = "coba-disqus"
 #pygmentsCodefences = true
 #pygmentsStyle = "pygments"
 
+googleAnalytics = "UA-195607381-2"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
