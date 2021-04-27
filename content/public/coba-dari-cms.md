@@ -7,7 +7,7 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus
 ---
 Ini coba dari CMS edit
 
-EDIT BARU
+EDIT BARU oleh anonim
 
 coba edit lagi dari cms local
 
