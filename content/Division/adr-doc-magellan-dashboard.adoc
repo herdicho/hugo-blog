@@ -1,0 +1,18 @@
+---
+title: 1
+date: 2021-04-07T13:57:28+07:00
+draft: false
+thumbsup: false
+---
+
+= Document ADR (Magellan Dashboard)
+
+
+The documents below are the history of all decisions applied by the development team based on the exploration
+
+
+|===
+|*Document Title* |*Remark/Explanation*
+| <<adr-doc-magellan-dashboard/0000-adr-doc-old-decision-magellan-dashboard.adoc#, [ADR-0000] Old Decision  >> |Template ADR
+|<<adr-doc-magellan-dashboard/0001-adr-doc-simple-healty-check-endpoint.adoc#, [ADR-0001] Simple Health Check Endpoint  >> | Example ADR Doc
+|===

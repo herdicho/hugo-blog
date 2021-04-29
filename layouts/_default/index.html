@@ -1,7 +1,5 @@
 <html>
 <head>
-    {{ template "_internal/google_analytics.html" . }}
-    {{ template "_internal/google_analytics_async.html" . }}
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -37,27 +35,39 @@
     {{ partial "header" . }}
      
     <div style="border: 1px solid black; margin:10px; padding:10px;">
-        <div class="public"><a href="/public">PUBLIC</a></div>
+        <div><a href="/division">Division</a></div>
         <hr>
-        <p>* Public Folder</p>
+        <p>* Division Folder</p>
     </div>
 
     <div style="border: 1px solid black; margin:10px; padding:10px; ">
-        <div class="private"><a href="/private">PRIVATE</a></div>
+        <div><a href="/businessinitiative">Business Initiative</a></div>
         <hr>
-        <p>* Private Folder</p>
+        <p>* Business Initiative Folder</p>
     </div>
 
     <div style="border: 1px solid black; margin:10px; padding:10px; ">
-        <div class="enhydra"><a href="/enhydra">ENHYDRA</a></div>
+        <div><a href="/technicaldocumentation">Technical Documentation</a></div>
         <hr>
-        <p>* Enhydra Folder</p>
+        <p>* Technical Documentation Folder</p>
     </div>
 
     <div style="border: 1px solid black; margin:10px; padding:10px; ">
-        <div class="atur-tagihan"><a href="/atur-tagihan">ATUR-TAGIHAN</a></div>
+        <div><a href="/userguides">User Guides</a></div>
         <hr>
-        <p>* Atur Tagihan Folder</p>
+        <p>* User Guides Folder</p>
+    </div>
+
+    <div style="border: 1px solid black; margin:10px; padding:10px; ">
+        <div><a href="/governancedocs">Governance Docs</a></div>
+        <hr>
+        <p>* Governance Docs Folder</p>
+    </div>
+
+    <div style="border: 1px solid black; margin:10px; padding:10px; ">
+        <div><a href="/externalcontents">External Contents</a></div>
+        <hr>
+        <p>* External Contents Folder</p>
     </div>
  
      {{ partial "footer" . }}
