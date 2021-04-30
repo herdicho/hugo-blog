@@ -9,6 +9,14 @@ publish_mode: editorial_workflow
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
+- label: "Manual PDF"
+  name: "manual_pdf"
+  widget: "file"
+  default: "/uploads/general-manual.pdf"
+  media_library:
+    config:
+      multiple: true
+
 collections:
   - name: "public"
     label: "Public"
@@ -19,6 +27,11 @@ collections:
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Team", name: "team", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+    widget: "file"
+    default: "/uploads/general-manual.pdf"
+    media_library:
+    config:
+      multiple: true
 
   - name: "private"
     label: "Private"
