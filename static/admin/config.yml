@@ -19,11 +19,7 @@ collections:
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Team", name: "team", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-    widget: "file"
-    default: "/uploads/general-manual.pdf"
-    media_library:
-    config:
-      multiple: true
+      - { label: "Manual PDF", name: "manual_pdf", widget: "file", default: "/uploads/general-manual.pdf", media_library: config: multiple: true }
 
   - name: "private"
     label: "Private"
