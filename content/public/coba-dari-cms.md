@@ -5,6 +5,7 @@ team: enhydra
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus
   erat ac sapien accumsan feugiat. Nullam tincidunt egestas ex
 manual_pdf: /images/uploads/36680.png
+file_link: /images/uploads/awareness-and-feedback-recon-engine.pdf
 ---
 Ini coba dari CMS edit
 
