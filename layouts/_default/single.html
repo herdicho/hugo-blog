@@ -18,8 +18,10 @@
           <div style="color:grey; font-size:16px;">{{if .Params.author}}Author: {{.Params.Author}}{{end}}</div>
           <div style="color:grey; font-size:16px;">{{if .Params.team}}Team: {{.Params.Team}}{{end}}</div>
           <hr>
-          
+
           <div style="font-size:18px;margin-top: 50px;">{{.Content}}</div>
+
+          <div style="color:grey; font-size:16px;">{{if .Params.file_link}} Link : <a href="{{.Params.file_link}}">link File</a>{{end}}</div>
      </div>
 
      <a href="/" style="margin-bottom: 30px; padding-bottom: 10px;">Back to homepage</a>
