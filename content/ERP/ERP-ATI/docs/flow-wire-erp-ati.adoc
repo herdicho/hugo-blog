@@ -1,3 +1,0 @@
-= Flow and Wireframe ERP ATI
-
-Dokumen ini berisi tentang flow dan wireframe dari sistem, dokumen bisa di isi tentang gambar dan deskripsi dari flow dan wireframe sistem.

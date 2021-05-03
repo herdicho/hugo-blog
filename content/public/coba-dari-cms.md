@@ -1,10 +1,12 @@
 ---
 title: Coba dari cms
 date: 2021-04-08T02:25:46.309Z
+url: "/cek/alicanto"
 team: enhydra
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus
-  erat ac sapien accumsan feugiat. Nullam tincidunt egestas ex
+  erat ac sapien accumsan feugiat. Nullam tincidunt egestas ex 
 ---
+
 Ini coba dari CMS edit
 
 coba edit lagi dari cms local

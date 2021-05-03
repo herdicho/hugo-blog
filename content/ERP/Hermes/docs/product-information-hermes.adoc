@@ -1,9 +1,0 @@
-= Product Information Document Hermes
-
-Dokumen berikut berisi penjelasan terkait semua _product_ yang ada di dalam sistem Hermes. Berikut untuk list dari product information :
-
-
-|===
-|*Document Title* |*Remark/Explanation*
-| <<product-information-hermes/01-product-name-hermes.adoc#, Product Name Hermes>> |
-|===

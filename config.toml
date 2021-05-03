@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 disqusShortname = "coba-disqus"
 
+uglyURLS = true
+disablePathToLower = true
+
 #pygmentsCodefences = true
 #pygmentsStyle = "pygments"
 

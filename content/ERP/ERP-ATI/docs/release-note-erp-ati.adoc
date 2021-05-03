@@ -1,3 +1,0 @@
-= Release Note ERP ATI
-
-Berisi catatan rilis sistem ERP ATI

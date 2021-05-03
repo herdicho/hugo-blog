@@ -1,5 +1,0 @@
-= Document Source Odoo
-
-Berikut sumber dokumentasi lengkap dari sistem Odoo (ERP):
-
-https://docs.google.com/document/d/19dUZ2e0kwvTchVyVKzF_-FJ_oPUI-fjCettWVTWyXVQ/edit#[Dokumentasi ERP]

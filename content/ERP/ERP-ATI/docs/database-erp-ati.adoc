@@ -1,7 +1,0 @@
-= Database Documentation ERP ATI
-
-Berisi dokumentasi database yang digunakan di dalam sistem, seperti daftar tabel dan gambar ERD beserta penjelasannya.
-
-|===
-|*Table Name* |*Description*
-|===

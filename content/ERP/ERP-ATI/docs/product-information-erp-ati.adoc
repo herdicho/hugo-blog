@@ -1,9 +1,0 @@
-= Product Information Document ERP ATI
-
-Dokumen berikut berisi penjelasan terkait semua _product_ yang ada di dalam sistem ERP ATI. Berikut untuk _list_ dari product information :
-
-
-|===
-|*Document Title* |*Remark/Explanation*
-| <<product-information-erp-ati/01-product-name-erp-ati.adoc#, Product Name ERP ATI  >> |
-|===

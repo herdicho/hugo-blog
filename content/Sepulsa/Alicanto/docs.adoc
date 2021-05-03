@@ -35,15 +35,15 @@ Alicanto atau Allicanto adalah burung mitologis gurun Atacama yang berkaitan den
 
 == Technical Information
 
-link:../docs/url-alicanto[System URL Alicanto]
+link:../docs/url-alicanto[System URL Alicanto New]
 
-link:../docs/url-alicanto.adoc[System URL Alicanto]
+link:../docs/url-alicanto.adoc[System URL Alicanto New]
 
-link:../docs/architecture-alicanto[Architecture Alicanto]
+link:../docs/architecture-alicanto[Architecture Alicanto New]
 
-link:../docs/technology-alicanto[Technology Alicanto]
+link:../docs/technology-alicanto[Technology Alicanto New]
 
-link:/sepulsa/alicanto/docs/technology-alicanto[Technology Alicanto]
+link:/sepulsa/alicanto/docs/technology-alicanto[Technology Alicanto New]
 
 <<docs/url-alicanto.adoc#, System URL Alicanto>>
 
@@ -54,6 +54,8 @@ link:/sepulsa/alicanto/docs/technology-alicanto[Technology Alicanto]
 <<docs/environment-alicanto.adoc#, Environment Alicanto>>
 
 <<docs/flow-wire-alicanto.adoc#, Flow and Wire Alicanto>>
+
+link:docs/flow-wire-alicanto.adoc[Flow and Wire Alicanto New]
 
 == Onboarding Information
 
