@@ -1,0 +1,3 @@
+= Developer Onboarding Chital
+
+Anda dapat mengakses dokumentasi _installation setup_ serta _tools_ yang digunakan sistem Chital pada https://gitlab.alterra.id/alterra/roys/ulo-clan/sanca/chital/-/blob/master/README.md[halaman berikut].

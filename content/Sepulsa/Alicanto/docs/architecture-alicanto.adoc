@@ -1,0 +1,5 @@
+= Architecture Alicanto
+
+== High Level Diagram
+
+image::images-alicanto/HLA_Chital.jpg[HLA Alicanto]

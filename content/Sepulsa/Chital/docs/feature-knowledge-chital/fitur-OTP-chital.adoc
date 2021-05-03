@@ -1,0 +1,173 @@
+= Email OTP Notification Chital
+
+== Development Team
+
+|===
+| *Name* | *Role* | *Email* 
+
+| R Achmad Syatriadi Widisana  | Document Owner | widisana@alterra.id
+
+| Hendrik Rahardja |  Development Manager | hendrik@alterra.id
+
+| Ramdhan Pohan  | Product Owner | rpohan@alterra.id
+
+a| 1. R Achmad Syatriadi Widisana  
+2. Pipit Puspitasari 
+| System analyst 
+a| 1. widisana@alterra.id  
+2. pipit@alterra.id
+
+| Ery Hardinata | Software Engineer | ery@alterra.id
+
+| S Fahmianto | Front End Developer | -
+
+| Khoiriyah | Quality Enggineer | khoiriyah@alterra.id
+|===
+
+== Overview
+
+Pada sebuah aplikasi dibutuhkan beberapa _security code_ yang harus dimasukkan terlebih dahulu setelah _login_.
+_Code_ inilah yang disebut dengan OTP (*_One Time Password_*) yang di-_generate_ langsung oleh sistem _backend_ pada aplikasi.
+OTP ini yang nantinya akan digunakan sebagai validasi kedua (setelah *_username_* dan *_password_*) untuk masuk ke dalam sistem sebuah aplikasi.
+
+Pada aplikasi Sepulsa ada OTP yang  digunakan sebagai _validator_ untuk integrasi kedalam sistem _Core_.
+Karena disebut sebagai _One Time Password_, maka sistem akan selalu _generate value code_ tersebut.
+
+Jika OTP dari user masih kosong (*_null_* or *_""_*).
+_Code_ ini juga diberikan expired_time dari setiap kali _generate_.
+Jadi misalkan ketika _login_ dan OTP sudah melebihi *expired_time*, maka _system_ akan otomatis _generate_ nilai OTP terbaru.
+
+Di dalam _settingan_-nya saat ini, *expired_time* berlaku di *15 menit* setelah *otp_created_at* yang ada di tabel *User*.
+
+== Sistem Flow
+
+image::./images-feature-chital/OTP_for_User.png[OTP]
+
+Gambar Sistem Flow di atas dapat diakses pada https://www.lucidchart.com/invitations/accept/a9adf21c-93fd-4633-b56b-c1378d8dbd08[link berikut].
+
+== Requirement
+
+=== OTP Notification User Story
+
+|===
+| *No* |  *User Story* | *Description* | *Notes*
+| 1      |  _Input_ data (_register_)  | _Input_ nama, email, no HP, _password_, centang ketentuan layanan dan kebijakan privasi | 
+| 2     |  _Input_ data (_login_)  | _Input_ no HP/email, _password_ | 
+| 3      | OTP _request_   | _User_ dapat menerima email OTP  | 
+| 4      |  _Input_ OTP   | _Input_ OTP  | 
+|===
+
+== Implementation
+
+=== Database
+
+=== _Related Table_
+
+|===
+| *_Table Name_* |  *_Related Fieds_* | *_Value_* 
+| user     |  id + username + password + otp + otp_created_at  |  |
+|===
+
+=== Proses implementasi
+
+* Integrasi API untuk permintaan OTP baru
+* Integrasi API untuk validasi OTP
+* Integrasi django-otp, integrasi ke Chital _Customer_
+* _hit endpoint_ permintaan OTP \-> memeriksa _user exist_ & memeriksa jika tidak aktif & lebih besar dari _timestamp_ \-> mengirim sinyal untuk menghasilkan email otp \-> kembali _true_
+* _hit endpoint validate OTP_ \-> memeriksa _user exist_ & memeriksa jika tidak aktif \-> memeriksa \-> _valid OTP & user active_
+* _API to request new OTP, endpoint_: `[POST] /otp/request//`
+* _API to validate OTP, endpoint_ `[POST] /otp/verification/`
+* *Overview*
++
+*Input*``OTP 4 digits``generate_otp (request - success):otp_auth (request - success):
++
+----
+      {
+        "email": "imel@imel.com"
+      }
+
+      {
+        "token": "1234"
+      }
+----
+
+* *Approval Function*
++
+_generate valid OTP 4 digits with expired time 15 minutes validate OTP_
+
+* *Output*
++
+generate_otp (response - success):
++
+----
+      {
+        "status": "200",
+        "rescode": "00",
+        "message": {},
+        "errors": {},
+        "data": {
+            "detail": "A login token has been sent to your email."
+        }
+      }
+
+  otp_auth (response - success):
+
+      {
+        "status": "200",
+        "rescode": "00",
+        "message": {},
+        "errors": {},
+        "data": {
+            "refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTU3NDc2MTkwMywianRpIjoiMTdmNWVmYzY4NGMwNGFiOGExODUzYmY0MTJlZmQ2M2QiLCJ1c2VyX2lkIjozfQ.zA-x8MEBQF59nyCIR8SH6mmSSBZCug76rqvNQxgbBOQ",
+            "access": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTc0Njg2MzAzLCJqdGkiOiI0MzU1M2FlOTk0OTY0MDU1OThjMTA4NmZmOTNjMTY5MSIsInVzZXJfaWQiOjN9.8Ral-zqd-glsFeG2GsZwj5XTFoHIE1z9w8Z60G6SqY4"
+        }
+      }
+
+  email:
+----
+
+* *_Config Page_ :* PASSWORDLESS_TOKEN_EXPIRE_TIME
+* *_Permission_ :* N/A
+
+== User Interaction & Design
+
+|===
+| *Name* |  *Tags* | *Files* 
+| Email OTP    |  https://xd.adobe.com/view/a163c0b0-2a51-4454-63d7-c5133a00eefb-d752/ |  
+|===
+
+== API Documentation
+
+_Internal Doc_ : https://chital.sumpahpalapa.com/docs/swagger/#operation/products_create
+
+|===
+| *Name* | *Endpoint* | *Method*
+
+| _User_
+| /oscar/users/
+| GET
+
+| _Login_
+| /oscar/login/
+| GET
+
+| _OTP request_
+| https://chital.sumpahpalapa.com/api/v1/otp/request/[/otp/request/]
+| POST
+
+| _OTP notification_
+| https://chital.sumpahpalapa.com/api/v1/otp/request/[/otp/notification/]
+| POST
+|===
+
+== _Permission Process_
+
+_Registrasi & login_ menerima dan menginput OTP hanya digunakan dalam fitur aplikasi _web_ sepulsa yang digunakan oleh user.
+
+== _Reference Document_
+
+=== Pivotal Task
+
+* https://www.pivotaltracker.com/story/show/169632320[Pivotal Task Chital]
+
+* https://www.pivotaltracker.com/story/show/169632130s[Picotal Task Alicanto]

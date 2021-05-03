@@ -1,0 +1,304 @@
+= Seingat Chital
+
+== Development Team
+
+|===
+| *Name* | *Role* | *Email* 
+
+| R Achmad Syatriadi Widisana  | Document Owner | widisana@alterra.id
+
+| Hendrik Rahardja |  Development Manager | hendrik@alterra.id
+
+| Ramdhan Pohan  | Product Owner | rpohan@alterra.id
+
+a| 1. R. Achmad Syatriadi Widisana  
+2. Pipit Puspitasari 
+| System Analyst 
+a| 1. widisana@alterra.id  
+2. pipit@alterra.id
+
+| Ery Hardinata | Software Engineer | ery@alterra.id
+
+| S Fahmianto | Front End Developer | -
+
+| Khoiriyah | Quality Enggineer | khoiriyah@alterra.id
+|===
+
+== Overview
+
+Sebuah sistem yang berfokus untuk mengingatkan (_reminder_) tagihan _user_. Pengingat akan berjalan sesuai dengan periode waktu yang sudah _user_ atur (mingguan, bulanan, 3 bulan, 6 bulan dan tahunan). _User_ akan mendapatkan *email* pengingat waktu untuk membayar tagihan, sehingga _user_ akan terbantu untuk mengatur dan mempersiapkan biaya tagihan yang akan dikeluarkan untuk periode tertentu.
+
+=== Sistem Flow
+* TODO
+
+=== User Story
+* TODO
+
+=== Implementation
+
+==== Database
+
+.seingat_seingat
+|========================
+| Field              | Type         | Null | Key | Default | Extra          
+| id                 | int(11)      | NO   | PRI | NULL    | auto_increment 
+| transaction_name   | varchar(255) | NO   |     | NULL    |                
+| is_paid            | tinyint(1)   | NO   |     | NULL    |                
+| created_at         | datetime(6)  | NO   |     | NULL    |                
+| updated_at         | datetime(6)  | YES  |     | NULL    |                
+| periodic_task_id   | int(11)      | YES  | MUL | NULL    |                
+| stockrecord_id     | int(11)      | NO   | MUL | NULL    |                
+| user_id            | int(11)      | NO   | MUL | NULL    |                
+| at                 | int(11)      | NO   |     | NULL    |                
+| selected_period_id | int(11)      | NO   | MUL | NULL    |                
+| next_run_at        | datetime(6)  | YES  |     | NULL    |                
+|========================
+
+.seingat_validation
+|========================
+| Field            | Type    | Null | Key | Default | Extra          
+| id               | int(11) | NO   | PRI | NULL    | auto_increment 
+| product_class_id | int(11) | NO   | MUL | NULL    |                
+|========================
+
+.seingat_validation_period
+|========================
+| Field              | Type         | Null | Key | Default | Extra          
+| id                 | int(11) | NO   | PRI | NULL    | auto_increment 
+| validation_id      | int(11) | NO   | MUL | NULL    |                
+| availableperiod_id | int(11) | NO   | MUL | NULL    |                     
+|========================
+
+.seingat_availableperiod
+|========================
+| Field              | Type         | Null | Key | Default | Extra          
+| id    | int(11)      | NO   | PRI | NULL    | auto_increment
+| name  | varchar(255) | NO   |     | NULL    |                
+|========================
+
+==== Proses Implementasi
+* Membangun _endpoint_ `REST API` yang akan digunakan _frontend_ (*Alicanto*) untuk berinteraksi dengan sistem _backend_ (*Chital*). _Endpoint_ ini memiliki fungsi-fungsi standar *CRUD* (Create, Read, Update, Delete).
+* Membuat `job scheduler` yang akan digunakan oleh fitur seingat untuk mengirimkan notifikasi berupa _email_ yang akan dikirimkan kepada pengguna sesuai dengan waktu yang telah diatur.
+
+==== Overview
+* *List Seingat*
+
+.GET /api/v1/seingat/
+[source,json]
+{
+    "status": "200",
+    "rescode": "00",
+    "message": {},
+    "errors": {},
+    "data": {
+        "count": 2,
+        "next": null,
+        "previous": null,
+        "results": [
+            {
+                "id": 37,
+                "product_class": 12,
+                "category": 81,
+                "stockrecord": {
+                    "partner_sku": "XL5K",
+                    "product_label": "Axiata XL Rp5.000",
+                    "price_excl_tax": "7000",
+                    "admin_fee": null,
+                    "kraken_id": 11,
+                    "is_active": true,
+                    "is_archive": false
+                },
+                "at": {
+                    "id": 46,
+                    "month": null,
+                    "weekday": 0,
+                    "day": null
+                },
+                "payload": "{\"url\":\"http://localhost:8000/api/v1/oscar/products/16/\",\"quantity\":1,\"options\":[{\"option\":\"localhost:8000/api/v1/oscar/options/1/\",\"value\":\"081234000001\"},{\"option\":\"localhost:8000/api/v1/oscar/options/2/\",\"value\":\"http://chital-dev-tunnel.herokuapp.com/api/v1/payment/source/1\"}]}",
+                "transaction_name": "Test Seingat #2",
+                "is_paid": false,
+                "next_run_at": "2020-10-26T13:30:07.461184+07:00",
+                "created_at": "2020-10-14T23:25:07.436322+07:00",
+                "updated_at": null,
+                "paid_type": 0,
+                "selected_period": 2,
+                "user": 152
+            },
+            {
+                "id": 36,
+                "product_class": 12,
+                "category": 81,
+                "stockrecord": {
+                    "partner_sku": "XL5K",
+                    "product_label": "Axiata XL Rp5.000",
+                    "price_excl_tax": "7000",
+                    "admin_fee": null,
+                    "kraken_id": 11,
+                    "is_active": true,
+                    "is_archive": false
+                },
+                "at": {
+                    "id": 45,
+                    "month": null,
+                    "weekday": 3,
+                    "day": null
+                },
+                "payload": "{\"url\":\"http://localhost:8000/api/v1/oscar/products/16/\",\"quantity\":1,\"options\":[{\"option\":\"localhost:8000/api/v1/oscar/options/1/\",\"value\":\"081234000001\"},{\"option\":\"localhost:8000/api/v1/oscar/options/2/\",\"value\":\"http://chital-dev-tunnel.herokuapp.com/api/v1/payment/source/1\"}]}",
+                "transaction_name": "Test Seingat #1",
+                "is_paid": false,
+                "next_run_at": "2020-10-15T13:30:07.184131+07:00",
+                "created_at": "2020-10-14T23:23:07.159840+07:00",
+                "updated_at": null,
+                "paid_type": 0,
+                "selected_period": 1,
+                "user": 152
+            }
+        ]
+    }
+}
+
+* *Create Seingat baru*
+
+.POST /api/v1/seingat/
+[source,json]
+{
+    "transaction_name": "Test Seingat #2",
+    "is_paid": false,
+    "stockrecord": 7,
+    "periode": 2,
+    "at": {
+        "weekday": 0
+    },
+    "payload": "{\"url\":\"http://localhost:8000/api/v1/oscar/products/16/\",\"quantity\":1,\"options\":[{\"option\":\"localhost:8000/api/v1/oscar/options/1/\",\"value\":\"081234000001\"},{\"option\":\"localhost:8000/api/v1/oscar/options/2/\",\"value\":\"http://chital-dev-tunnel.herokuapp.com/api/v1/payment/source/1\"}]}"
+}
+
+.Response create seingat baru
+[source,json]
+{
+    "status": "201",
+    "rescode": "00",
+    "message": {},
+    "errors": {},
+    "data": {
+        "id": 37,
+        "product_class": 12,
+        "category": 81,
+        "stockrecord": {
+            "partner_sku": "XL5K",
+            "product_label": "Axiata XL Rp5.000",
+            "price_excl_tax": "7000",
+            "admin_fee": null,
+            "kraken_id": 11,
+            "is_active": true,
+            "is_archive": false
+        },
+        "at": {
+            "id": 46,
+            "month": null,
+            "weekday": 0,
+            "day": null
+        },
+        "transaction_name": "Test Seingat #2",
+        "is_paid": false,
+        "next_run_at": "2020-10-26T13:30:07.461184+07:00",
+        "created_at": "2020-10-14T23:25:07.436322+07:00",
+        "updated_at": null,
+        "paid_type": 0,
+        "payload": "{\"url\":\"http://localhost:8000/api/v1/oscar/products/16/\",\"quantity\":1,\"options\":[{\"option\":\"localhost:8000/api/v1/oscar/options/1/\",\"value\":\"081234000001\"},{\"option\":\"localhost:8000/api/v1/oscar/options/2/\",\"value\":\"http://chital-dev-tunnel.herokuapp.com/api/v1/payment/source/1\"}]}",
+        "selected_period": 2,
+        "user": 152
+    }
+}
+
+* *Update Seingat*
+
+.PUT /api/v1/seingat/<id>
+[source,json]
+{
+    "transaction_name": "Edited Seingat #2",
+    "is_paid": false,
+    "stockrecord": 6,
+    "periode": 1,
+    "at": {
+        "weekday": 2
+    },
+    "payload": "{\"url\":\"http://localhost:8000/api/v1/oscar/products/16/\",\"quantity\":1,\"options\":[{\"option\":\"localhost:8000/api/v1/oscar/options/1/\",\"value\":\"081234000001\"},{\"option\":\"localhost:8000/api/v1/oscar/options/2/\",\"value\":\"http://chital-dev-tunnel.herokuapp.com/api/v1/payment/source/1\"}]}"
+}
+
+.Response update seingat
+[source,json]
+{
+    "status": "200",
+    "rescode": "00",
+    "message": {},
+    "errors": {},
+    "data": {
+        "id": 37,
+        "product_class": 12,
+        "category": 80,
+        "stockrecord": {
+            "partner_sku": "TSEL50K",
+            "product_label": "Telkomsel Rp50.000",
+            "price_excl_tax": "50000",
+            "admin_fee": null,
+            "kraken_id": 11,
+            "is_active": true,
+            "is_archive": false
+        },
+        "at": {
+            "id": 54,
+            "month": null,
+            "weekday": 2,
+            "day": null
+        },
+        "payload": "{\"url\":\"http://localhost:8000/api/v1/oscar/products/16/\",\"quantity\":1,\"options\":[{\"option\":\"localhost:8000/api/v1/oscar/options/1/\",\"value\":\"081234000001\"},{\"option\":\"localhost:8000/api/v1/oscar/options/2/\",\"value\":\"http://chital-dev-tunnel.herokuapp.com/api/v1/payment/source/1\"}]}",
+        "transaction_name": "Edited Seingat #2",
+        "is_paid": false,
+        "next_run_at": "2020-10-14T13:30:44.108915+07:00",
+        "created_at": "2020-10-14T23:47:44.229212+07:00",
+        "updated_at": "2020-10-14T23:47:43.564016+07:00",
+        "paid_type": 0,
+        "selected_period": 1,
+        "user": 152
+    }
+}
+
+* *Bulk Update Status Seingat*
+
+.PUT /api/v1//seingat/update_status/
+[source,json]
+{
+    "ids":[4],
+    "is_paid":1
+}
+
+.Response Bulk Update Status Seingat
+[source,json]
+{
+    "status": "200",
+    "rescode": "00",
+    "message": {},
+    "errors": {},
+    "data": {
+        "status": true,
+        "message": "Update Partial Success",
+        "key": "partial"
+    }
+}
+
+==== Technical Terms
+
+*Periode* : Merupakan opsi variabel jeda waktu pada fitur seingat
+
+* 1 : Satu Minggu
+* 2 : Dua Minggu
+* 3 : Satu Bulan
+* 4 : Tiga Bulan
+* 5 : Enam Bulan
+* 6 : Satu Tahun
+
+*At* : Menandakan kapan fitur *seingat* harus berjalan setiap `periode`-nya
+
+* `month` : Bulan dengan tipe data `integer`, dimulai dengan *1* (Januari) s.d. *12* (Desember)
+* `day` : Tanggal dengan tipe data `integer`, dimulai dengan *1* s.d. *31* (Maksimal hari pada kalender)
+* `weekday`: Hari pada setiap minggu, `integer`, dimulai dengan *0* (Senin) s.d. *6* (Minggu)

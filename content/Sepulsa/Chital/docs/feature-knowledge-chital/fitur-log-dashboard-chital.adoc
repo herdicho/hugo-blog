@@ -1,0 +1,72 @@
+= Log Dashboard Chital
+
+== Development Team
+
+|===
+| *Name* | *Role* | *Email* 
+
+| R. Achmad Syatriadi Widisana  | Document Owner | widisana@alterra.id
+
+| Hendrik Rahardja |  Development Manager | hendrik@alterra.id
+
+| Ramdhan Pohan  | Product Owner | rpohan@alterra.id
+
+a| 1. R. Achmad Syatriadi Widisana  
+2. Pipit Puspitasari 
+| System Analyst 
+a| 1. widisana@alterra.id  
+2. pipit@alterra.id
+
+| Ery Herdinata | Software Engineer | ery@alterra.id
+
+| S Fahmianto | Front End Developer | -
+
+| Khoiriyah | Quality Enggineer | khoiriyah@alterra.id
+|===
+
+== Overview
+
+Merupakan sebuah fitur yang memungkinkan sistem untuk merekam setiap kegiatan atau aktivitas yang dilakukan oleh pengguna admin _dashboard_. Fitur ini sangat bermanfaat untuk memantau siapa saja yang melakukan apa serta kapan kegiatan tersebut terjadi di dalam sistem dan data apa saja yang telah diubah. Contoh, Administrator dapat melacak siapa _user_ yang sudah melakukan _editing order_ transaksi penjualan, siapa yang sudah memperbarui data _payment_ manajemen, dan sebagainya.
+
+=== Sistem Flow
+* TODO
+
+=== User Story
+* TODO
+
+=== Implementation
+
+==== Database
+
+.auditlog_logentry
+|========================
+| Field              | Type         | Null  | Key | Default | Extra          
+| id                 | int(11)      | YES   | PRI |         | auto_increment 
+| object_pk          | varchar(255) | YES   | MUL |         |     
+| object_id          | bigint(20)   | NO    | MUL | NULL    |
+| object_repr        | longtext     | YES   |     |         |
+| action             | int(5)       | YES   |     |         |
+| changes            | longtext     | YES   |     |         |  
+| timestamp          | datetime(6)  | YES   |     |         |                
+| actor_id           | int(11)      | NO    | MUL | NULL    |                
+| content_type_id    | int(11)      | YES   | MUL |         | 
+| remote_addr        | varchar(39)  | NO    |     | NULL    | 
+| additional_data    | longtext     | NO    |     | NULL    |                
+|========================
+
+==== Proses Implementasi
+
+* Melakukan _install library_ di aplikasi (django-auditlog)
+* _Import_ auditlog & AuditlogHistoryField di setiap model yang akan dilakukan proses _login_ di dalamnya
+* Membangun menu _dashboard_ baru di dalam group Logs di _dashboard_, supaya setiap model punya report untuk perubahan yang sudah dilakukan _user_ di sistem (_Create, Update, Delete_).
+* Untuk menampilkan _report log dashboard_ sesuai dengan tanggal yang diinginkan, maka admin tinggal memasukkan tanggal di filter log _dashboard_ dan klik *submit*.
+
+==== Overview
+
+* *Input*
+
+Masukkan _filter_ date pada log dashboard sesuai dengan tanggal log yang ingin ditampilkan.
+
+* *Output*
+
+Sistem akan menampilkan daftar log di _dashboard_ sesuai dengan inputan tanggal yang dimasukkan di filter, sehingga admin bisa tahu user yang melakukan perubahan, _data/field_ apa saja yang berubah serta tanggal perubahan tersebut dan juga action yang dilakukan oleh user (_add/edit/delete_).

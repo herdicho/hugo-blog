@@ -1,0 +1,12 @@
+= Development Chital
+
+== Source Code
+
+Anda dapat mengakses _Source Code_ sistem Chital pada https://gitlab.alterra.id/alterra/roys/ulo-clan/sanca/chital[halaman berikut].
+
+
+== Django
+
+=== Django Custom Template Tags
+
+Ketika membuat _custom template tags_, letakkan pada `apps.account`, di _directory_ selain itu tidak terdeteksi oleh Django.

@@ -1,0 +1,5 @@
+= Developer Onboarding Alicanto
+
+Berikut adalah dokumentasi _installation setup_ serta _tools_ yang digunakan:
+
+https://gitlab.alterra.id/alterra/roys/ulo-clan/sanca/alicanto/-/blob/master/README.md[Gitlab Alicanto]

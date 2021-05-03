@@ -1,0 +1,10 @@
+= ADR Document Alicanto
+
+The documents below are the history of all decisions applied by the development team based on the exploration
+
+
+|===
+|*Document Title* |*Remark/Explanation*
+| <<adr-doc-alicanto/0001-adr-decision-1-alicanto.adoc#, [ADR-0001] Decision 1 Alicanto>> |Template ADR
+|Next Decision | 
+|===
