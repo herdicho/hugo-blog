@@ -1,5 +1,0 @@
-= Development Alicanto
-
-== Source Code
-
-https://gitlab.alterra.id/alterra/roys/ulo-clan/sanca/alicanto[*Source Code*]

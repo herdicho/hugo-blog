@@ -1,9 +1,0 @@
-= Pivotal Project Chital
-
-Berikut URL Pivotal dari Chital dan Alicanto:
-
-https://www.pivotaltracker.com/n/projects/2380149[Pivotal 1]
-
-https://www.pivotaltracker.com/n/projects/2325618[Pivotal 2]
-
-https://www.pivotaltracker.com/n/projects/2326169[Pivotal 3]

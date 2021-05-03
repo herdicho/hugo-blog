@@ -1,8 +1,0 @@
-= Product Information Document Chital
-
-Dokumen berikut berisi penjelasan terkait semua product yang ada di dalam sistem Hedwig. Berikut untuk list dari product information :
-
-|===
-|*Document Title* |*Remark/Explanation*
-| <<product-information-chital/01-product-name-chital.adoc#, Product Name Chital>> |
-|===

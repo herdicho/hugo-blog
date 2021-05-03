@@ -1,5 +1,0 @@
-= Release Notes Chital
-
-== Github
-
-Anda dapat mengakses _Release Notes_ sistem Chital pada https://github.com/sepulsa/chital/releases[halaman berikut]
