@@ -1,0 +1,152 @@
+= Database Documentation Bacameter.NET
+
+Berisi dokumentasi database yang digunakan di dalam sistem, seperti daftar tabel dan gambar ERD beserta penjelasannya.
+
+
+|===
+|*Table Name* |*Description*
+
+|airlimbah
+|berisi data yang batas atas/bawah biaya air limbah pada menu tarif golongan
+|alias
+|-
+|biayalain
+|pengaturan biaya lain yang digunakan saat hitung rekening, di atur pada menu tarif golongan > biaya lain
+|blok
+|data blok pada suatu rayon
+|countersender
+|-
+|customize
+|-
+|daftarbacameter
+|berisi data pembacaan untuk periode hasil baca, tabel hasilbacaMMYY pasti tersimpan disini
+|diameter
+|berisi data diameter beserta data biaya-nya
+|dumpcetaklabel
+|-
+|dumpdataawal
+|digunakan untuk diisi data sementara saat proses buat data pembacaan sebelum nantinya di copy ke tabel hasilbacaMMYY
+|dumpdataawalupdate
+|-
+|dumphasilbaca
+|-
+|dumphasilbacaupdate
+|-
+|dumppelanggan
+|-
+|dumppelangganrutin
+|-
+|dumpupload
+|-
+|formatpesansalah
+|-
+|formatsmsmasuk
+|-
+|formatsmsterjadwal
+|-
+|golongan
+|-
+|hapus
+|-
+|hasilbaca
+|-
+|hasilbaca(MMYY)
+|tabel yang menyimpan data hasilbaca yang diupload oleh aplikasi grabber (MMYY = dynamic periode bulan tahun)
+|historiupload
+|-
+|historiupload(MMYY)
+|tabel yang menyimpan data riwayat upload hasilbaca (MMYY = dynamic periode bulan tahun)
+|inbox
+|-
+|info
+|-
+|infodomain
+|-
+|jabatan
+|berisi data hak akses aplikasi untuk role/jabatan user di tabel userakses
+|jadwalbaca
+|-
+|kecamatan
+|berisi data kecamatan yang digunakan di aplikasi bacameter
+|kelainan
+|-
+|kelurahan
+|berisi data kelurahan/dusun yang digunakan di aplikasi bacameter
+|kondisimeter
+|-
+|logbackupotomatis
+|-
+|logbayar
+|-
+|logerror
+|-
+|loggrabber
+|-
+|loggsm
+|-
+|logsmsterjadwal
+|-
+|logsmsultah
+|-
+|loguserakses
+|berisi log kegiatan yang dilakukan oleh user, misal Login, Menambah data, dsb
+|lookuppelgsm
+|-
+|map
+|-
+|meterai
+|berisi data meterai yang digunakan untuk hitung rekening, diatur pada menu Sistem Kontrol > Tarif Golongan
+|no_pel
+|berisi no sambungan pelanggan dengan status nya
+|paramgsm
+|-
+|pelanggan
+|-
+|pelanggantdkaktif
+|-
+|pengaturansms
+|-
+|petugasbaca
+|berisi data petugas baca
+|queuecellid
+|-
+|queuestaticmap
+|-
+|queuetukarfoto
+|-
+|rayon
+|berisi data rayon yang digunakan di aplikasi bacameter
+|rtrw
+|berisi data rt/rw yang digunakan di aplikasi bacameter
+|sarandanpengaduan
+|berisi data saran dan pengaduan yang dikirim oleh user
+|sender
+|-
+|senderbin
+|-
+|setting
+|tabel untuk beberapa pengaturan aplikasi seperti foto hasilbaca dll
+|setting_unit
+|-
+|stan
+|-
+|tampung
+|-
+|tanggal
+|berisi data tanggal (1-31) dengan nilai toleransi dan berhubungan dengan tabel tanggalbaca
+|tanggalbaca
+|berisi tanggal baca untuk suatu rayon
+|tarif
+|berisi tarif/biaya batas atas/bawah untuk suatu golongan
+|terminal
+|-
+|tmppel
+|-
+|userakses
+|tabel untuk pengguna aplikasi
+|wilayah
+|berisi master data wilayah yang digunakan di aplikasi bacameter (fixed value)
+|wmlist
+|berisi master data water meter
+
+|===

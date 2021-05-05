@@ -1,0 +1,64 @@
+= Bacameter.NET
+:keywords: bsa-pdam,bacameter-net,bacameter
+
+== Overview
+
+Bacameter.NET merupakan salah satu _desktop app_ (module) SiPDAMPintar yang di-_revamp_ dari Bacameter.NET versi Delphi dengan beberapa _UI/UX improvement_.
+
+== Team Involved
+
+Berikut adalah orang yang terlibat dalam pengembangan sistem Bacameter.NET. Masing-masing sudah dilengkapi dengan alamat _email_ yang bisa dihubungi jika diperlukan.
+
+Software Development Team
+
+|===
+| *Name* | *Role* | *Email* 
+| Aryo Indrasmoro | Engineering Manager | aryo@alterra.id
+| Acep Zulkipli Jabar | Development Team Lead | azul@alterra.id
+| Tofa Suriawan | Software Engineer | tofa@alterra.id
+| Ahmad Alfan | Software Engineer | alfan@alterra.id
+| Muhammad Ariyanto Wijaya | Software Engineer | ariyanto@alterra.id
+| Angga Dwi Apria Rifandi | Software Engineer | angga@alterra.id
+|===
+
+UI/UX Design Team	
+
+|===	
+| *Name* | *Role* | *Email* 	
+| Aulia Rahmani | UI & UX Design Lead | aulia@alterra.id 	
+| Mahfuzi | UI & UX Design | mahfuzi@alterra.id	
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<docs/architecture-bacameter.adoc#, Architecture Bacameter.NET>>
+
+<<docs/technology-bacameter.adoc#, Technology Bacameter.NET>>
+
+<<docs/environment-bacameter.adoc#, Environment Bacameter.NET>>
+
+<<docs/database-bacameter.adoc#, Database Documentation Bacameter.NET>>
+
+<<docs/release-deploy-bacameter.adoc#, Release and Deployment Bacameter.NET>>
+
+<<docs/flow-wire-bacameter.adoc#, Flow and Wireframe Bacameter.NET>>
+
+== Onboarding Information
+
+<<docs/dev-onboarding-bacameter.adoc#, Developer Onboarding Bacameter.NET>>
+
+<<docs/development-bacameter.adoc#, Development Bacameter.NET>>
+
+<<docs/naming-convention-bacameter.adoc#, Naming Convention Bacameter.NET>>
+
+== Documentation
+
+Berisi dokumen penunjang untuk penggunaan sistem, berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam list dokumen berikut:
+
+<<docs/adr-doc-bacameter.adoc#, ADR Document Bacameter.NET>>
+
+<<docs/product-information-bacameter.adoc#, Product Information Document Bacameter.NET>>
+
+<<docs/release-note-bacameter.adoc#, Release Note Bacameter.NET>>

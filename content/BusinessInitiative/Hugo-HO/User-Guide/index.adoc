@@ -1,0 +1,14 @@
+---
+title: "User Guide"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= User Guide 
+
+User Guide baiknya menggunakan apa ya?
+Embed link gdrive kah atau gimana? 
+
+https://docs.google.com/presentation/d/1qToJf9JSvMu2_1bjWZi7MJ9TXR_ImPi2LP0-igPkvds/edit?usp=sharing
+
+

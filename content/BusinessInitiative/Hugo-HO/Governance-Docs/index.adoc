@@ -1,0 +1,19 @@
+---
+title: "Governance-Docs"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= Governance Docs
+
+Semua Governance Document seperti SOP, Policy, Working Instruction, dan SLA yang harus diketahui bersama akan dipublikasikan di sini. Jadi, pastikan kamu membaca dokumen di bawah ini agar kamu semakin memahami bagaimana peraturan dan kebijakan terbaru di Alterra. 
+
+|===
+| *Title* | *Document Type* | *Label* 
+
+
+|https://drive.google.com/drive/folders/1pH-5-R8b5QikWCG3SR4io6qAA73uKkfy[SOP Purchase Requisition]
+| Procurement
+| Internal
+
+|=== 

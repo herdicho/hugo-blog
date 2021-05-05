@@ -1,0 +1,16 @@
+---
+title: "System URL Enhydra"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= System URL Enhydra
+
+Saat ini sistem dalam tahap ___________, informasi akses dapat dilihat melalui tabel di bawah ini. Gunakan alias, username, dan password yang sudah terdaftar untuk mengakses sistem.
+
+|===
+|*Stage* |*URL*
+|Development |
+|Staging |
+|Production |
+|===

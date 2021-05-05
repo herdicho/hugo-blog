@@ -1,0 +1,277 @@
+---
+title: "Naming Convention Sentinel"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= Naming Convention Sentinel
+
+Berikut adalah standar penamaan direktori untuk setiap _feature_ Sentinel:
+
+|===
+| *Tim* | *Feature* | *Path* 
+
+| Kraken
+| Biller Config
+| src/Kraken/Biller
+
+| Kraken
+| Biller managemant/ FBS
+| src/Kraken/BM
+
+| Kraken
+| Stock Inventory
+| src/Kraken/Core/BillerInventory
+
+| Kraken
+| Master RC Partner/ RC Biller
+| src/Kraken/Core/MasterRC
+
+| Kraken
+| Price Mapping
+| src/Kraken/Core/PriceMapping
+
+| Kraken
+| RC Mapping Approval Partner / Biller
+| src/Kraken/Core/RCMappingApproval
+
+| Kraken
+| RC Mapping Log Partner / Biller
+| src/Kraken/Core/RCMappingLog
+
+| Kraken
+| Partner-package
+| src/Kraken/Partner/TabPartnerPackage
+
+| Kraken
+| Balances
+| src/Kraken/Partner/Balance
+
+| Kraken
+| Package Approval
+| src/Kraken/Partner/PackageApproval
+
+| Kraken
+| Package Log
+| src/Kraken/Partner/PackageLog
+
+| Kraken
+| Lazada Config
+| src/Kraken/Partner/Lazada
+
+| Kraken
+| Indomaret Config
+| src/Kraken/Partner/IndomaretConfig
+
+| Kraken
+| Canopus
+| src/Kraken/Partner/Canopus
+
+| Kraken
+| TCash Integration
+| src/Kraken/Partner/TcashIntegration
+
+| Kraken
+| Product
+| src/Kraken/Product/Product
+
+| Kraken
+| Product Approval
+| src/Kraken/Product/Approval
+
+| Kraken
+| Product Log
+| src/Kraken/Product/Log
+
+| Kraken
+| Product Limit
+| src/Kraken/Product/ProductLimit
+
+| Kraken
+| Product Type
+| src/Kraken/Product/ListProductType
+
+| Kraken
+| Operator
+| src/Kraken/Product/Operator
+
+| Kraken
+| Cutoff
+| src/Kraken/Product/Cutoff
+
+| Kraken
+| Game Topup
+| src/Kraken/Product/GameTopup
+
+| Kraken
+| Settings
+| src/Kraken/System/Setting
+
+| Kraken
+| System Parameters
+| src/Kraken/System/SystemParameter
+
+| Kraken
+| Cache Management
+| src/Kraken/System/CacheManagement
+
+| Kraken
+| Notifications
+| src/Kraken/System/Notification
+
+| Kraken
+| Provider
+| src/Kraken/System/Provider
+
+| Kraken
+| Transactions
+| src/Kraken/Transaction/Transaction
+
+| Kraken
+| Pending Summary
+| src/Kraken/Transaction/Pending
+
+| Kraken
+| Quarantine
+| src/Kraken/Transaction/Quarantine
+
+| Kraken
+| Bulk Update
+| src/Kraken/Transaction/BulkUpdate
+
+| Kraken
+| Reversal
+| src/Kraken/Transaction/Reversal
+
+| Anaconda
+| Dashboard
+| src/pages/Dashboard
+
+| Anaconda
+| Role & Permissions
+| src/Sentinel/Pages/RoleAndPermisson
+
+| Anaconda
+| User managemant
+| src/Sentinel/Pages/UserManagemant
+
+| Anaconda
+| Cacabot
+| src/Sentinel/Pages/Cacabot
+
+| Anaconda
+| DB Config API
+| src/Sentinel/Pages/Cacabot/DbConfigApi
+
+| Anaconda
+| Group Config API
+| src/Sentinel/Pages/Cacabot/GroupApi
+
+| Anaconda
+| App User Config
+| src/Sentinel/Pages/Cacabot/AppUserConfig
+
+| Anaconda
+| Query Command Config
+| src/Sentinel/Pages/Cacabot/QueryCommandConfig
+
+| Anaconda
+| Scheduled Notif Config
+| src/Sentinel/Pages/Cacabot/ScheduledNotifConfig
+
+| Anaconda
+| Command Config
+| src/Sentinel/Pages/Cacabot/CommandApi
+
+| Anaconda
+| Smartbiller
+| src/Smartbiller/
+
+| Anaconda
+| Change Log
+| src/Smartbiller/pages/ChangeLog
+
+| Anaconda
+| Product Biller Config
+| src/Smartbiller/pages/TabProductBiller
+
+| Anaconda
+| Product Partner Config
+| src/Smartbiller/pages/ProductPartner
+
+| Anaconda
+| Weight Partner Config
+| src/Smartbiller/pages/WeightPartner
+
+| Anaconda
+| Weigth Category Config
+| src/Smartbiller/pages/TabWeightCategory
+
+| Anaconda
+| Category Product
+| src/Smartbiller/pages/TabCategoryProduct
+
+| Anaconda
+| Auto Open-Close Config
+| src/Smartbiller/pages/AutoOpenClose
+
+| Anaconda
+| TOP Config
+| src/Smartbiller/pages/TOPConfig
+
+| Anaconda
+| Pronghorn
+| src/Pronghorn
+
+| Anaconda
+| Lusca
+| src/lusca/pages/biller_config/BillerConfig
+|===
+
+== Penamaan Method pada Biller
+
+|===
+| *Method* | *Deskripsi*
+
+| *fetchBillerConfig ()*
+| untuk mendapatkan info/mengambil config biller
+
+| *addProductMapping ()*
+| untuk menambahkan _product mapping_
+
+| *removeProductMapping ()*
+| untuk menghapus _product mapping_
+
+| *validateConfig()*
+| untuk mengecek Config sebelum disimpan ke Backend
+
+| *save ()*
+| untuk menyimpan Biller Config
+|===
+
+== *Direktori*
+
+|===
+| *Direktori* | *Deskripsi*
+
+| *kraken-admin/pages/*
+| source code halaman web
+
+| *kraken-admin/pages/biller*
+| source code halaman biller config
+
+| *kraken-admin/pages/package*
+| source code halaman package
+
+| *kraken-admin/pages/partner*
+| source code halaman partner
+
+| *kraken-admin/pages/product*
+| source code halaman product
+
+| *kraken-admin/pages/transaction*
+| source code halaman transaksi
+
+| *kraken-admin/router*
+| source code router kraken-admin
+|===

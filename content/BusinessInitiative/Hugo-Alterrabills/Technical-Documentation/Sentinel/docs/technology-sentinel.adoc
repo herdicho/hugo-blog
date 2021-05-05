@@ -1,0 +1,29 @@
+---
+title: "Technology Sentinel"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= Technology Sentinel 
+
+Berikut ini adalah teknologi yang digunakan untuk mengembangkan sistem Sentinel:
+
+|===
+| *Spesifikasi* | *Nama* 
+
+| *Programming Language*
+| Javascript
+
+
+| *Framework*
+| Vue.js v2.5.2
+
+
+| *Package Manager*
+| Yarn
+
+
+| *Development Tools*
+| Visual Studio Code (Latest)
+
+|===

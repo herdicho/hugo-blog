@@ -1,0 +1,4 @@
+= Release Note Bacameter.NET
+
+Silahkan baca file CHANGELOG
+

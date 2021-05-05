@@ -1,0 +1,19 @@
+---
+title: "Technical Documentation"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= Technical Documentation 
+
+Fitur submenu bisa kayak ini https://stripe.com/docs/payments 
+
+Di kelompokan berdasarkan Project kategori 
+
+Contoh kategori : 
+
+1. ERP
+2. Internal
+3. Inovation
+4. dll
+

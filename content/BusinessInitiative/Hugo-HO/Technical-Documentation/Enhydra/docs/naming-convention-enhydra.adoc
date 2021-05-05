@@ -1,0 +1,16 @@
+---
+title: "Naming Convention Enhydra"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= Naming Convention Enhydra
+
+*Enhydra* mengikuti naming convention yang disajikan oleh airbnb, berupa camelCase. 
+Beberapa rules penamaan tersebut dapat digambarkan sebagai berikut:
+
+|===
+| *Rule*     | *Type*   |*Example*         | *Description*
+|1           |Pages, Variable, Function    |saranPerbaikan.vue, toastKirim: false    |Standard naming convention camelCase, dimulai dengan huruf kecil, dan tiap kali butuh spasi diganti menjadi kapital untuk kata selanjutnya
+|2          |Components                   |ComponentAkun, DashboardBanner           |Seluruh components Uppercase di awal kata, namun jika membutuhkan folder, penamaan folder mengikuti rule no.1 (camelCase standard)
+|===

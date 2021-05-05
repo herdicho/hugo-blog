@@ -1,0 +1,9 @@
+= Login ke Modul Hublang
+
+Untuk masuk ke dalam sistem Hublang, Anda cukup mengikuti langkah berikut:
+
+image::../images-hublang/hublang-login.png[align="center"]
+
+1. Masukkan nama pengguna yang sudah terdaftar
+2. Masukkan kata sandi
+3. Tekan tombol *Masuk* untuk masuk ke dalam sistem. Tekan tombol *Keluar* apabila hendak keluar dari sistem.

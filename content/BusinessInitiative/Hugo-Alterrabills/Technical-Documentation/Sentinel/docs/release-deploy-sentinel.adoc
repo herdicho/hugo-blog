@@ -1,0 +1,16 @@
+---
+title: "Release and Deployment Sentinel"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= Release and Deployment Sentinel
+
+== Release Steps
+
+_Release using JIRA method_
+
+== Deployment Schedule
+
+Ini tentatif, idealnya rilis harus dilakukan sebelum _sprint review_.
+Jika tidak memungkinkan, rilis dilakukan dalam rentang _sprint_ sesudahnya.

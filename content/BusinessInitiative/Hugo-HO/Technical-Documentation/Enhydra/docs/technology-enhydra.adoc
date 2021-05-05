@@ -1,0 +1,22 @@
+---
+title: "Technology Enhydra"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= Technology Enhydra
+
+|===
+| *Specification*        | *Name*                 | *Ref*
+|Programming Language   |Nuxt                   |https://nuxtjs.org/guides/get-started/installation
+|FE Framework           |Tailwind               |https://tailwindcss.com/docs/installation
+|Web Icon               |Remixicon              |https://remixicon.com/
+|Unit Test              |JEST                   |
+|Standarize Code        |Eslint (airbnb)        |https://www.npmjs.com/package/eslint-config-airbnb-base
+|Naming Convention      |Camel Case             |use this: "camelCase" instead of "snake-case"
+|Container              |                       |
+|Proxy                  |                       |
+|OS                     |                       |
+|Web Server             |                       |
+|===
+

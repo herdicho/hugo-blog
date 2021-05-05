@@ -1,0 +1,14 @@
+---
+title: "Developer Onboarding Enhydra"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= Developer Onboarding Enhydra
+
+Berisi dokumentasi tentang hal-hal yang harus dilakukan oleh developer pada tahap onboarding. Biasanya berisi 2 poin utama berupa tools yang dipakai dan tutorial untuk menginstall sistem di lokal.
+
+== Tools
+
+
+== Local Machine Setup

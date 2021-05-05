@@ -1,0 +1,14 @@
+---
+title: "Product Information Document Enhydra"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= Product Information Document Enhydra
+
+Dokumen berikut berisi penjelasan terkait semua _product_ yang ada di dalam sistem (System Name). Berikut untuk list dari product information :
+
+|===
+|*Document Title* |*Remark/Explanation*
+| <<product-information-enhydra/01-product-name-enhydra.adoc#, Product Name Enhydra  >> |
+|===

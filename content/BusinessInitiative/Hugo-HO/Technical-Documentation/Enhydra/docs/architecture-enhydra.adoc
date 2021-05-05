@@ -1,0 +1,22 @@
+---
+title: "Architecture Enhydra"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= Architecture Enhydra
+
+== Related System
+
+Enhydra terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan Enhydra.
+
+|===
+|*No*   |*Nama Sistem*      |*Deskripsi*
+|1      |PO.BOX             |Backend for Enhydra (PO-BOX)
+|
+
+|===
+
+== High Level Architecture
+
+image::images-enhydra/HLA_enhydra_v100.jpg[HLA Enhydra 1.0.0]

@@ -1,0 +1,61 @@
+---
+title: "Main"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= Enhydra
+:keywords: ati, internal
+
+== Overview
+
+Enhydra sendiri awalnya adalah nama squad yang berisi temen-temen Frontend Designer yang saat ini bertransformasi menjadi Software Engineer. Pada repo ini, dikerjakan untuk proses revamp POBOX (sistem yang menyediakan fitur untuk memberikan apresiasi dan juga saran perbaikan, kepada sesama pegawai di Alterra)
+
+Current version: <<docs/release-note-enhydra.adoc#, 1.11.0>>
+
+== Team Involved
+
+|===
+| *Name*                    | *Role*                | *Email* 
+|Andreas Yulius Nugroho     | Guru & Penasihat      | andreas@alterra.id
+|Ekky Patria Kencana        | Development Lead      | ekky@alterra.id
+|Mas Agus Setyo Purwanto    | Software Engineer     | agus@alterra.id
+|Winda Pramesti             | Software Engineer     | winda@alterra.id
+|Dharmawan Sukma            | Software Engineer     | dharmawan@alterra.id
+|Rizky Maulana              | Software Engineer     | rmaulana@alterra.id
+|===
+
+
+== Technical Information 
+
+<<docs/url-enhydra.adoc#, System URL Enhydra>>
+
+<<docs/architecture-enhydra.adoc#, Architecture Enhydra>>
+
+<<docs/technology-enhydra.adoc#, Technology Enhydra>>
+
+<<docs/environment-enhydra.adoc#, Environment Enhydra>>
+
+<<docs/database-enhydra.adoc#, Database Documentation Enhydra>>
+
+<<docs/release-deploy-enhydra.adoc#, Release and Deployment Enhydra>>
+
+<<docs/flow-wire-enhydra.adoc#, Flow and Wireframe Enhydra>>
+
+== Onboarding Information
+
+<<docs/dev-onboarding-enhydra.adoc#, Developer Onboarding Enhydra>>
+
+<<docs/development-enhydra.adoc#, Development Enhydra>>
+
+<<docs/naming-convention-enhydra.adoc#, Naming Convention Enhydra>>
+
+== Documentation
+
+<<docs/adr-doc-enhydra.adoc#, ADR Document Enhydra>>
+
+<<docs/product-information-enhydra.adoc#, Product Information Document Enhydra>>
+
+<<docs/release-note-enhydra.adoc#, Release Note Enhydra>>
+
+

@@ -9,6 +9,10 @@ title = "Dot"
 disableLanguages = []
 # google analytics
 googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
+
+uglyurls = true
+disablePathToLower = true
+
 # unsafe html
 [markup.goldmark.renderer]
 unsafe = true

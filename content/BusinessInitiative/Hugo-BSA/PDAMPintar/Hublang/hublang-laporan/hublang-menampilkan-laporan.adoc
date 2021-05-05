@@ -1,0 +1,23 @@
+= Menampilkan Laporan
+
+Laporan pada sistem Hublang bisa ditampikan dengan memilih menu laporan dan mengikuti  langkah - langkah sebagai berikut : 
+
+image::../images-hublang/hublang-menampilkan-laporan-1.png[align="center"]
+
+1. Pilih Menu *Laporan*
++ 
+image::../images-hublang/hublang-menampilkan-laporan-2.png[align="center"]
+
+2. Pilih *Kategori Laporan* yang tersedia
++ 
+image::../images-hublang/hublang-menampilkan-laporan-3.png[align="center"]
+
+3. Pilih salah satu jenis laporan yang akan ditampikan, setiap kategori Laporan memiliki detail dan list data yang berbeda
++ 
+image::../images-hublang/hublang-menampilkan-laporan-4.png[align="center"]
+
+4. Isi *Filter Form* sesuai dengan data yang ingin ditampilkan
++ 
+image::../images-hublang/hublang-menampilkan-laporan-5.png[align="center"]
+
+5. Sistem akan menampilkan laporan sesuai dengan filter yang sudah ditentukan

@@ -1,0 +1,107 @@
+---
+title: "Environment Sentinel"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= Environment Sentinel
+
+|===
+| *Environment* | *Spesifikasi* | *Files*
+
+| *Staging Development*
+| *IP Address*
+| -
+
+|
+| *URL*
+| https://kraken-web.sumpahpalapa.com/
+
+|
+| *Doc Root*
+| -
+
+|
+| *Service Name*
+| -
+
+|
+| *DB Server*
+| -
+
+|
+| *Git Branch*
+| qa_*
+
+| *Staging Regression*
+| *IP Address*
+| -
+
+|
+| *URL*
+| https://kraken-web-uat.sumpahpalapa.com/
+
+|
+| *Doc Root*
+| /sepulsa/www/kraken-web/
+
+|
+| *Service Name*
+|
+
+|
+| *DB Server*
+|
+
+|
+| *Git Branch*
+| uat_*
+
+| *Horven*
+| *IP Address*
+| -
+
+|
+| *URL*
+| https://horven-web.sumpahpalapa.com/
+
+|
+| *Doc Root*
+| -
+
+|
+| *Service Name*
+|
+
+|
+| *DB Server*
+|
+
+|
+| *Git Branch*
+| master
+
+| *Production*
+| *IP Address*
+| -
+
+|
+| *URL*
+| https://sentinel.alterra.id/
+
+|
+| *Doc Root*
+| -
+
+|
+| *Service Name*
+| -
+
+|
+| *DB Server*
+| -
+
+|
+| *Git Branch*
+| master
+|===

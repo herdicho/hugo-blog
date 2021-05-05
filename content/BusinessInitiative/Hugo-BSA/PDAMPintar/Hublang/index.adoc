@@ -1,0 +1,77 @@
+= Modul Hublang
+
+Modul Hublang merupakan sistem Bimasakti yang digunakan untuk yang digunakan untuk penanganan berbagai permohonan, berita acara, hingga pengaduan dari pelanggan pada masing-masing PDAM.
+
+**Getting Started**
+
+link:./hublang-getting-started/hublang-login.adoc[Login ke Modul Hublang]
+
+link:./hublang-getting-started/hublang-menu.adoc[Menu Modul Hublang]
+
+**Pelayanan**
+
+link:./hublang-pelayanan/hublang-melihat-detail-pelanggan.adoc[Melihat Detail Pelanggan]
+
+link:./hublang-pelayanan/hublang-mengelola-data-pelanggan.adoc[Mengelola Data Pelanggan]
+
+link:./hublang-pelayanan/hublang-mengelola-permohonan-balik-nama.adoc[Mengelola Permohonan Balik Nama]
+
+link:./hublang-pelayanan/hublang-mengelola-berita-acara-permohonan-balik-nama.adoc[Mengelola Berita Acara Permohonan Balik Nama]
+
+link:./hublang-pelayanan/hublang-mengelola-permohonan-rubah-golongan.adoc[Mengelola  Permohonan Rubah Golongan]
+
+link:./hublang-pelayanan/hublang-mengelola-berita-acara-rubah-golongan.adoc[Mengelola Berita Acara  Rubah Golongan]
+
+link:./hublang-pelayanan/hublang-mengelola-permohonan-rubah-rayon.adoc[Mengelola Permohonan Rubah Rayon]
+
+link:./hublang-pelayanan/hublang-mengelola-permohonan-tutup-sementara-pelanggan-air.adoc[Mengelola  Permohonan Tutup Sementara Pelanggan Air]
+
+link:./hublang-pelayanan/hublang-mengelola-permohonan-tutup-total-pelanggan-air.adoc[Mengelola Permohonan Tutup Total Pelanggan Air]
+
+link:./hublang-pelayanan/hublang-mengelola-permohonan-perubahan-atau-koreksi-rekening.adoc[Mengelola Permohonan Perubahan atau Koreksi Rekening]
+
+link:./hublang-pelayanan/hublang-membuat-dan-menghapus-usulan-koreksi-rekening.adoc[Membuat dan Menghapus Usulan Koreksi Rekening]
+
+link:./hublang-pelayanan/hublang-menampilkan-daftar-koreksi-rekening-pelanggan.adoc[Menampilkan Daftar Koreksi Rekening Pelanggan]
+
+link:./hublang-pelayanan/hublang-menghitung-simulasi-tarif.adoc[Menghitung Simulasi Tarif]
+
+link:./hublang-pelayanan/hublang-mengelola-permohonan-pembukaan-segel-pelanggan.adoc[Mengelola Permohonan Pembukaan Segel Pelanggan]
+
+link:./hublang-pelayanan/hublang-mengelola-permohonan-sambung-kembali.adoc[Mengelola Permohonan Sambung Kembali]
+
+link:./hublang-pelayanan/hublang-mengelola-pendaftaran-sambung-baru.adoc[Mengelola Pendaftaran Sambungan Baru]
+
+link:./hublang-pelayanan/hublang-melakukan-pemblokiran-pelanggan-bermasalah.adoc[Melakukan Pemblokiran Pelanggan Bermasalah]
+
+link:./hublang-pelayanan/hublang-mengelola-pengaduan-lainnya.adoc[Mengelola Pengaduan Lainnya]
+
+link:./hublang-pelayanan/hublang-mengelola-tagihan-secara-manual.adoc[Mengelola Tagihan Secara Manual]
+
+link:./hublang-pelayanan/hublang-mengelola-data-air-tangki.adoc[Mengelola Data Air Tangki]
+
+link:./hublang-pelayanan/hublang-melakukan-monitoring-pelayanan.adoc[Melakukan Monitoring Pelayanan]
+
+**Supervisi Permohonan**
+
+link:./hublang-supervisi-permohonan/hublang-menampilkan-daftar-tunggu-proses-data.adoc[Menampilkan Daftar Tunggu Proses Data]
+
+**Laporan**
+
+link:./hublang-laporan/hublang-menampilkan-laporan.adoc[Menampilkan Laporan]
+
+**Master Data**
+
+link:./hublang-master-data/hublang-mengelola-data-material.adoc[Mengelola Data Material]
+
+link:./hublang-master-data/hublang-mengelola-data-ongkos.adoc[Mengelola Data Ongkos]
+
+link:./hublang-master-data/hublang-mengelola-data-paket-material.adoc[Mengelola Data Paket Material]
+
+link:./hublang-master-data/hublang-mengelola-data-paket-ongkos.adoc[Mengelola Data Paket Ongkos]
+
+link:./hublang-master-data/hublang-mengelola-data-paket-rab.adoc[Mengelola  Data Paket RAB]
+
+link:./hublang-master-data/hublang-mengelola-data-jenis-non-air.adoc[Mengelola  Data Jenis Non Air]
+
+link:./hublang-master-data/hublang-mengelola-data-tarif-air-tangki.adoc[Mengelola Data Tarif Air Tangki]

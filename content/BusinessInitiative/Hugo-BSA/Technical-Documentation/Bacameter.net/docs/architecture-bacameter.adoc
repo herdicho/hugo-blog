@@ -1,0 +1,20 @@
+= Architecture Bacameter.NET
+
+== Related System
+
+Bacameter terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan Bacameter.
+
+|===
+|*No* |*Nama Sistem* |*Deskripsi*
+
+| 1 | Bacamater Grabber | CLI background app untuk mengambil data dari mobile app & sinkronkan dengan database bacameter
+| 2 | Datatools | Web based Dashboard untuk melihat report terkait berbagai aplikasi PDAM Pintar
+| 3 | Bacameter Mobile | Android app untuk menyimpan data hasil baca oleh petugas baca PDAM di lapangan
+
+|===
+
+== High Level Architecture
+
+Berikut ini merupakan highlevel architecture dari Bacameter.NET
+
+image:images/diagram_bacameter.net.png[Diagram Bacameter.NET]

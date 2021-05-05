@@ -1,0 +1,8 @@
+= Menghitung Simulasi Tarif
+
+image::../images-hublang/hublang-menghitung-simulasi-tarif-1.png[align="center"]
+
+Fitur *Simulasi Tarif* digunakan untuk membuat perkiraan tarif yang akan dibayarkan oleh pelanggan dengan cara memasukkan *Informasi Golongan, Diameter, Stan Lalu*, dan *Stan Kiri*. Fitur ini hanya bisa dipakai sebelum pelanggan resmi mendaftar di PDAM.
+
+image::../images-hublang/hublang-menghitung-simulasi-tarif-2.png[align="center"]
+

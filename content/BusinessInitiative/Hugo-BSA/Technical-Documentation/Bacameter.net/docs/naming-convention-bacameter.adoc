@@ -1,0 +1,3 @@
+= Naming Convention Bacameter.NET
+
+Berisi aturan penamaan dalam development Bacameter.NET.

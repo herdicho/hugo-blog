@@ -1,0 +1,80 @@
+---
+title: "Main"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= Sentinel
+:keywords: sti, bpa-support, operation-dashboard, kraken, smartbiller, amigdala, cacabot
+
+== Overview
+
+Sentinel adalah _dashboard_ khusus untuk tim Ops (Operations) dalam menjalankan tugas kesehariannya. Diharapkan pada tahun 2019 Sentinel sudah dapat menggunakan _realtime data_ yang berasal dari data _Stream_.
+
+Nama lain dari _dashboard_ ini adalah *Kraken Admin phase 2*. Melalui Sentinel _User_ dapat melihat data transaksi, melakukan pengecekan status produk yang tersedia, menambahkan produk, partner, dan operator.
+
+*Sistem*
+
+*Sentinel Web Application (FE)*
+
+Aplikasi Web Sentinel adalah UI Interface berupa Web Dashboard yang terhubung dengan beberapa sistem,di antaranya adalah: Kraken, Pollux, Sentinel Backend.
+
+*Sentinel System (BE)*
+
+Sistem Sentinel Backend belum ada (bisa dihilangkan dahulu dan mungkin nantinya akan jadi sistem baru yang bisa menjadikan _Single Sign-On_ pada semua sistem di Alterra).
+
+== Team Involved
+
+|===
+| *Name* | *Role* | *Email*
+
+| Arnoldus Lasut
+| Product Owner
+| arnoldus@alterra.id
+
+| Antonius Ananto
+| Development Manager
+| anton@alterra.id
+
+| Somy Andriyanto
+| Lead Software Engineer
+| somy@alterra.id
+
+| Andik Wiko Sumartono
+| Quality Manager
+| andik@alterra.id
+
+| Johanes Paulus
+| Lead Quality Engineer
+| johanes@alterra.id
+|===
+
+== Technical Information
+
+<<docs/url-sentinel.adoc#, System URL Sentinel>>
+
+<<docs/architecture-sentinel.adoc#, Architecture Sentinel>>
+
+<<docs/technology-sentinel.adoc#, Technology Sentinel>>
+
+<<docs/environment-sentinel.adoc#, Environment Sentinel>>
+
+<<docs/release-deploy-sentinel.adoc#, Release and Deployment Sentinel>>
+
+<<docs/smartbiller-sentinel.adoc#, Smartbiller Sentinel>>
+
+== Onboarding Information
+
+<<docs/dev-onboarding-sentinel.adoc#, Developer Onboarding Sentinel>>
+
+<<docs/development-sentinel.adoc#, Development Sentinel>>
+
+<<docs/naming-convention-sentinel.adoc#, Naming Convention Sentinel>>
+
+== Documentation
+
+https://alterra.atlassian.net/projects/BPAS?contains=Sentinel&orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released[Release Notes Sentinel]
+
+<<docs/adr-doc-sentinel.adoc#, ADR Document Sentinel>>
+
+<<docs/product-information-sentinel.adoc#, Product Information Document Sentinel>>

@@ -1,0 +1,15 @@
+= Developer Onboarding Bacameter.NET
+
+Persiapkan _tools_ dan _local machine setup_ sebagai berikut:
+
+== Tools
+- link:https://visualstudio.microsoft.com/vs/community/[Visual Studio Community 2019]
+- link:https://git-scm.com/download/win[Git Client CLI] atau link:https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio[Github Visual Studio Extension] 
+
+== Local Machine Setup
+- Windows OS with C#, .NET Framework >= 4 support
+- Untuk database MySQL local lebih nyaman menggunakan link:https://laragon.org/download/[Laragon] link:https://sourceforge.net/projects/laragon/files/Portable/laragon.7z[Portable]
+
+== Knowledge
+- MySQL, SQLite, Entity Framework 6
+- Understanding; WPF, MVVM design pattern, Caliburn Micro, LiveChart

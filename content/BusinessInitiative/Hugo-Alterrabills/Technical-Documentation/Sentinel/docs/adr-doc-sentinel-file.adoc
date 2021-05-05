@@ -1,0 +1,17 @@
+---
+title: "ADR Document Sentinel"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= ADR Document Sentinel
+
+
+The documents below are the history of all decisions applied by the development team based on the exploration
+
+
+|===
+|*Document Title* |*Remark/Explanation*
+| <<adr-doc-sentinel/0001-adr-decision-1-sentinel.adoc#, [ADR-0001] Decision 1 Sentinel >> |Template ADR
+|Next Decision | 
+|===

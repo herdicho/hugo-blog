@@ -1,0 +1,60 @@
+= Development Bacameter.NET
+
+Berisi Git Flow dan langkah development sistem Bacameter.NET.
+
+== Development Step
+Untuk membuat feature/hotfix/chore dan sebagainya, langsung buat branch baru sesuai tujuan/task nya.	
+Misalkan bila pengerjaan branch berdasarkan JIRA task maka namai branch tersebut dengan JIRA ID nya.	
+
+Untuk memulai development pada Bacameter.NET pastikan sedang berada pada branch `master` (main) branch.	
+
+Contoh:	
+```powershell	
+PS D:\ALTERRA\BSA\bacameter.net> git branch	
+....	
+....	
+* master	
+PS D:\ALTERRA\BSA\bacameter.net> git checkout -b PDAM1419	
+```	
+
+Bila pengerjaan sudah selesai lakukan link:https://github.com/bimasaktialterra/bacameter.net/compare[PR (Pull Request)].	
+
+Kemudian pilih `base` master/main branch dan `compare` branch feature `PDAM1419` 	
+
+Reqeust reviewer minimal kepada salah satu anggota tim.	
+
+Bila terdapat conflict diskusikan dengan tim dan coba lakukan solve conflict.	
+
+Ketika PR biasanya ada check sonarlint, pastikan semua PR Check sudah lolos. 	
+Bila masih terdapat status `failed` silahkan perbaiki berdasarkan hasil rekomendasi check PR
+
+## Prerequisite 
+Untuk memulai development silahkan pahami dan siapkan komputer dengan kebutuhan sebagai berikut;
+
+- Windows OS with C#, .NET Framework >= 4 support, Visual Studio 2019 installed on your machine
+- Understanding; WPF MVVM design pattern, Caliburn Micro, LiveChart
+- MySQL, SQLite, Entity Framework 6
+
+## Development
+- Make sure Visual Studio 2019 installed properly
+- Clone the repo
+```
+git clone https://github.com/bimasaktialterra/bacameter.net.git
+```
+- Open/double click *bacameter.sln*
+- If you want check current branch Debug mode just press F5
+- If you want start develop feature, klik View -> Terminal
+make sure you are on *master* branch
+```
+git branch
+```
+then create feature branch
+```
+git checkout -b JIRA-ID-<your-lowercase-URL-safe-title>
+# eg; git checkout -b PDAM-1234-hide-show-menu
+```
+
+
+## Documentation Per Feature
+For each feature / menu on bacameter.NET may have specific short documentation under folder *documentation*.
+eg; how to use alert message (snackbacr) to show success/info/error message, how to use app configuration on SQLite, how to retrive globalization string from SQLite, etc.

@@ -1,0 +1,20 @@
+---
+title: "Development Sentinel"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+= Development Sentinel
+
+== Development Steps
+
+
+. Melaksanakan _refinement_ terhadap JIRA _issue tickets_ yang akan masuk dalam _Backlog_
+. Tim Product melengkapi _issue tickets_ dari hasil _refinement_
+. Melaksanakan _planning_ untuk _sprint_ yang akan datang dengan _issue tickets_ yang sudah siap dikerjakan di Backlog
+. Buat branch baru dengan nama JIRAissueId-features-name dari branch Origin Develop
+. _Finish_ dengan Pull Request ke QA_yyyymmdd (terbaru)
+. Jika PR 'accepted', Travis di UAT server akan _pull_ perubahan terbaru di qa_yyyymmdd
+. QA akan melakukan _test_ di server Staging
+. QA akan melakukan _test_ di server Regression
+. _Issue ticket_ siap di-_release_
