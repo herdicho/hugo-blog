@@ -1,3 +1,9 @@
+---
+title: "Hublang Mengelola Permohonan Tutup Total Pelanggan Air"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
 = Mengelola Permohonan Tutup Total Pelanggan Air
 
 *Permohonan Tutup Total* adalah permohonan yang dilakukan atas dasar permohonan dari pelanggan. Pelanggan yang telah melakukan permohonan tutup sementara akan memiliki *status "nonaktif"*. Permohonan tutup sementara pelanggan berstatus nonaktif dan rekeningnya tidak terbit. Berikut adalah penjelasan mengenai masing-masing sub-fitur Permohonan Tutup Total Pelanggan Air:

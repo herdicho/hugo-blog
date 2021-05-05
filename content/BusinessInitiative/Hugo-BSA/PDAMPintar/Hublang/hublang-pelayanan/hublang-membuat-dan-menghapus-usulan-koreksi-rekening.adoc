@@ -1,3 +1,9 @@
+---
+title: "Hublang Membuat dan Menghapus Usulan Koreksi Rekening"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
 = Membuat dan Menghapus Usulan Koreksi Rekening
 
 image::../images-hublang/hublang-membuat-dan-menghapus-usulan-koreksi-rekening-1.png[align="center"]

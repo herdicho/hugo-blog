@@ -1,3 +1,9 @@
+---
+title: "Hublang Mengelola Permohonan Tutup Sementara Pelanggan Air"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
 = Mengelola Permohonan Tutup Sementara Pelanggan Air
 
 Permohonan tutup sementara adalah permohonan yang dilakukan atas dasar permohonan dari pelanggan. Pelanggan yang telah melakukan permohonan *tutup sementara* akan memiliki status tutup sementara. Permohonan tutup sementara pelanggan berstatus tutup sementara dan rekening tetap terbit setiap bulannya dan hanya akan membayar biaya beban, tidak membayar biaya pakai.

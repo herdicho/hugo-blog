@@ -1,3 +1,9 @@
+---
+title: "Hublang Mengelola Permohonan Rubah Rayon"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
 = Mengelola Permohonan Rubah Rayon
 
 image::../images-hublang/hublang-mengelola-permohonan-rubah-rayon-1.png[align="center"]

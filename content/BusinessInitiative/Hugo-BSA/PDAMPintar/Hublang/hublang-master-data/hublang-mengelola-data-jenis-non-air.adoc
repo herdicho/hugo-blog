@@ -1,3 +1,9 @@
+---
+title: "Hublang Mengelola Data Jenis Non Air"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
 = Mengelola Data Jenis Non Air
 
 image::../images-hublang/hublang-mengelola-data-jenis-non-air-1.png[align="center"]

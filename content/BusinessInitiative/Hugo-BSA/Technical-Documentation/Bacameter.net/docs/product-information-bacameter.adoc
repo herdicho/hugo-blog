@@ -1,3 +1,9 @@
+---
+title: "Product Information Document Bacameter"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
 = Product Information Document Bacameter.NET
 
 Dokumen berikut berisi penjelasan terkait semua _product_ yang ada di dalam sistem Bacameter.NET. Berikut untuk list dari product information :

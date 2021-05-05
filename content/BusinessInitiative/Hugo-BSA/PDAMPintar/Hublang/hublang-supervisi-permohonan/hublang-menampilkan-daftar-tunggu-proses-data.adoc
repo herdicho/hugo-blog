@@ -1,3 +1,9 @@
+---
+title: "Hublang Menampilan Daftar Tunggu Proses Data"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
 = Menampilan Daftar Tunggu Proses Data
 
 image::../images-hublang/hublang-menampilkan-daftar-proses-tunggu-1.png[align="center"]

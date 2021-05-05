@@ -1,3 +1,9 @@
+---
+title: "Flow and Wireframe Bacameter"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
 :url-repo: https://github.com/bimasaktialterra/bacameter.net/tree/master
 
 = Flow and Wireframe Bacameter.NET

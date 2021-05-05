@@ -1,3 +1,9 @@
+---
+title: "Hublang Mengelola Data Tarif Air Tangki"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
 = Mengelola Data Tarif Air Tangki
 
 image::../images-hublang/hublang-mengelola-data-taif-air-tangki-1.png[align="center"]

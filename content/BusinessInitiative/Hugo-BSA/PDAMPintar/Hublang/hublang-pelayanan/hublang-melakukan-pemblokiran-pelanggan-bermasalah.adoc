@@ -1,3 +1,9 @@
+---
+title: "Hublang Melakukan Pemblokiran Pelanggan Bermasalah"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
 = Melakukan Pemblokiran Pelanggan Bermasalah 
 
 Fitur ini digunakan oleh petugas untuk membatasi dan menghilangkan transaksi pelanggan sesuai dengan kelainan atau pengaduan yang dilaporkan dari kelainan yang diinput dari petugas Bacameter.
