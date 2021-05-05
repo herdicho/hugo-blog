@@ -1,8 +1,8 @@
 ################################# Default configuration ###################
 # provide your domain here
-baseURL = "/"
+baseURL = "https://examplesite.com/"
 # theme
-theme = "dot-hugo-documentation-theme-master"
+theme = "dot"
 # site title
 title = "Dot"
 # disable language
