@@ -1,0 +1,5 @@
+{{ $child_pages := union .Sections .Pages }}
+{{ range $child_pages }}
+  <li>{{ .Title }}</li>
+  {{ partial "lists/recursive.html" . }}
+{{ end }}
