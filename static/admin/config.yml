@@ -10,48 +10,52 @@ media_folder: "static/images/uploads" # Media files will be stored in the repo u
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - name: "public"
-    label: "Public"
-    folder: "content/public"
+  - name: "BusinessInitiative"
+    label: "BusinessInitiative"
+    folder: "content/BusinessInitiative"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "date" }
-      - { label: "Team", name: "team", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "File", 
-          name: "file_link", 
-          widget: "file", 
-          default: "/uploads/general-manual.pdf"
-        }
-
-  - name: "private"
-    label: "Private"
-    folder: "content/private"
+      - { label: "Icon", name: "icon", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Layout", name: "layout", widget: "string" }
+      - { label: "Type", name: "type", widget: "string" }
+     
+  - name: "AlterraBills"
+    label: "AlterraBills"
+    folder: "content/BusinessInitiative/AlterraBills"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "date" }
-      - { label: "Team", name: "team", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "enhydra"
-    label: "Enhydra"
-    folder: "content/enhydra"
+  - name: "BSA"
+    label: "BSA"
+    folder: "content/BusinessInitiative/BSA"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "date" }
-      - { label: "Thumbsup", name: "thumbsup", widget: "boolean" }
       - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "atur-tagihan"
-    label: "Atur-Tagihan"
-    folder: "content/atur-tagihan"
+  - name: "ceo"
+    label: "CEO"
+    folder: "content/Division/ceo"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "date" }
-      - { label: "Thumbsup", name: "thumbsup", widget: "boolean" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "technology"
+    label: "Technology"
+    folder: "content/Divison/technology"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+ 
