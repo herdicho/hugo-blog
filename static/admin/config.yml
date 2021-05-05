@@ -31,6 +31,24 @@ collections:
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  - name: "Company"
+    label: "AlterraBills / Company"
+    folder: "content/BusinessInitiative/AlterraBills/Company"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "ExternalContents"
+    label: "AlterraBills / External Contents"
+    folder: "content/BusinessInitiative/AlterraBills/ExternalContents"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "BSA"
     label: "BSA"
     folder: "content/BusinessInitiative/BSA"
@@ -51,7 +69,7 @@ collections:
 
   - name: "technology"
     label: "Technology"
-    folder: "content/Divison/technology"
+    folder: "content/Division/technology"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
