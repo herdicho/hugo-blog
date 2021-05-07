@@ -1,0 +1,10 @@
+---
+title: "Main (Isi nya link ke content lain)"
+date: 2018-12-29T11:02:05+06:00
+lastmod: 2020-01-05T10:42:26+06:00
+---
+
+== Link ke content lain
+
+<<docs/technology-bacameter.adoc#, Technology Bacameter>>
+

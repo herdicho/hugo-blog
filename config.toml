@@ -10,6 +10,11 @@ disableLanguages = []
 # google analytics
 googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
 # unsafe html
+
+uglyurls = true
+disablePathToLower = true
+
+
 [markup.goldmark.renderer]
 unsafe = true
 
