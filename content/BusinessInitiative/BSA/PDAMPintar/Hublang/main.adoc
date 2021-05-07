@@ -1,5 +1,5 @@
 ---
-title: "Hublang"
+title: "Main"
 date: 2018-12-29T11:02:05+06:00
 lastmod: 2020-01-05T10:42:26+06:00
 ---
@@ -9,6 +9,8 @@ lastmod: 2020-01-05T10:42:26+06:00
 Modul Hublang merupakan sistem Bimasakti yang digunakan untuk yang digunakan untuk penanganan berbagai permohonan, berita acara, hingga pengaduan dari pelanggan pada masing-masing PDAM.
 
 **Getting Started**
+
+<<hublang-getting-started/hublang-login.adoc#, Login ke Modul Hublang new>>
 
 link:./hublang-getting-started/hublang-login.adoc[Login ke Modul Hublang]
 
