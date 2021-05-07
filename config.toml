@@ -4,7 +4,7 @@ baseURL = "/"
 # theme
 theme = "dot-hugo-documentation-theme-master"
 # site title
-title = "Dot"
+title = "Alterra"
 # disable language
 disableLanguages = []
 # google analytics
@@ -96,44 +96,32 @@ link = "contact"
 
 ################## english navigation #################
 [[Languages.en.menu.main]]
-name = "Home"
-url = "/"
+name = "Getting Started"
+url = "/getting-started"
 weight = 1
-
-[[Languages.en.menu.main]]
-name = "Faq"
-url = "faq"
-weight = 2
-
-[[Languages.en.menu.main]]
-name = "contact"
-url = "contact"
-weight = 3
 
 # Dropdown menu
 [[Languages.en.menu.main]]
-weight = 4
-name = "docs"
+weight = 2
+name = "Business Initiative"
 hasChildren = true
 
   [[Languages.en.menu.main]]
-  parent = "docs"
-  name = "Installation"
-  url = "installation"
+  parent = "Business Initiative"
+  name = "Alterra Bills"
+  url = "BusinessInitiative/AlterraBills.html"
   weight = 1
 
   [[Languages.en.menu.main]]
-  parent = "docs"
-  name = "Billing and Pricing"
-  url = "billing-pricing"
+  parent = "Business Initiative"
+  name = "BSA"
+  url = "BusinessInitiative/BSA.html"
   weight = 2
 
-  [[Languages.en.menu.main]]
-  parent = "docs"
-  name = "Features"
-  url = "features"
-  weight = 3
-
+[[Languages.en.menu.main]]
+name = "Support Desk"
+url = "/support-desk"
+weight = 3
 
 ################################### Franch Language ######################
 [Languages.fr]
