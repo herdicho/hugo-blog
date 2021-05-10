@@ -9,4 +9,8 @@
 ## Cara Run Server
 
 * Buka folder yang barusan di clone
+* Pindah branch ke `git checkout research-dot-theme`
+* Install depedency:
+  - `brew install hugo`
+  - `gem install asciidoctor`
 * Ketik di terminal ```hugo server``` untuk menjalankan local server
