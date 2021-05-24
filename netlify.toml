@@ -3,12 +3,13 @@ functions = "./lambda"
 
 [[redirects]]
 from = "/businessinitiative/*"
-to = "/businessinitiative/:splat"
+to = "/businessinitiative/*"
 status = 200
 force = true
-conditions = {Role = ["bi"]}
+conditions = {Role = "bi"}
+
 [[redirects]]
 from = "/businessinitiative/*"
 to = "/gated/"
-status = 404
+status = 401
 force = true
