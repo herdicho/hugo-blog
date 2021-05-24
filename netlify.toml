@@ -3,6 +3,7 @@ functions = "./lambda"
 
 [[redirects]]
 from = "/businessinitiative/*"
+to = "/businessinitiative/:splat"
 status = 200
 force = true
 conditions = {Role = ["bi"]}
