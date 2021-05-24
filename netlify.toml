@@ -2,14 +2,14 @@
 functions = "./lambda"
 
 [[redirects]]
-from = "/businessinitiative/*"
-to = "/businessinitiative/:splat"
+from = "/businessinitiativea/*"
+to = "/businessinitiativea/:splat"
 status = 200
 force = true
 conditions = {Role = ["superuser"]}
 
 [[redirects]]
-from = "/businessinitiative/*"
+from = "/businessinitiativea/*"
 to = "/gated/"
 status = 401
 force = true
