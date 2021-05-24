@@ -4,7 +4,7 @@ exports.handler = function (event, context, callback) {
 
     const responseBody = {
         app_metadata: {
-            roles: ['bi'],
+            roles: ['superuser'],
             my_user_info: 'this is some user info'
         },
         user_metadata: {

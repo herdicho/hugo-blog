@@ -1,3 +1,15 @@
 [build]
 functions = "./lambda"
 
+[[redirects]]
+from = "/businessinitiative/*"
+to = "/businessinitiative/:splat"
+status = 200
+force = true
+conditions = {Role = ["superuser"]}
+
+[[redirects]]
+from = "/businessinitiative/*"
+to = "/gated/"
+status = 401
+force = true

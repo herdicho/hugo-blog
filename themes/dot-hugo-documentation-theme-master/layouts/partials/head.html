@@ -1,7 +1,6 @@
 <head>
   <meta charset="utf-8">
   <title>{{ .Title }}</title>
-  <div data-netlify-identity-button></div>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   {{ hugo.Generator }}
   <meta name="description" content="{{ .Title }} - {{ .Site.Title }} ">
@@ -87,6 +86,6 @@
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
 
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 </head>
