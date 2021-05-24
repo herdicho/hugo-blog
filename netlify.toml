@@ -6,7 +6,7 @@ from = "/businessinitiative/*"
 to = "/businessinitiative/*"
 status = 200
 force = true
-conditions = {Role = "bi"}
+conditions = {Role = ["bi"]}
 
 [[redirects]]
 from = "/businessinitiative/*"
