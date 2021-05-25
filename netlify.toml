@@ -3,7 +3,7 @@ functions = "./lambda"
 
 [[redirects]]
 from = "/businessinitiative/*"
-to = "/businessinitiativea/:splat"
+to = "/businessinitiative/:splat"
 status = 200
 force = true
 conditions = {Role = ["superuser"]}
